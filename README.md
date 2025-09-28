@@ -65,5 +65,6 @@ Projeto prático de análise e validação da qualidade de um site escolhido pel
 
 ## :octocat: Histórico de versão
 
-| Versão | Data | Descrição | Autor(a) |
-|1.0|27/09/2025|Atualização inicial do README|Carlos Eduardo Mendes de Mesquita|
+| Versão | Data       | Descrição                     | Autor(a)                          |
+| ------ | ---------- | ----------------------------- | --------------------------------- |
+| 1.0    | 27/09/2025 | Atualização inicial do README | Carlos Eduardo Mendes de Mesquita |
