@@ -10,7 +10,7 @@ extra:
 
 theme:
   name: material
-  # logo: assets/logo/logo.png
+  logo: assets/images/sougovfundo.png
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -32,11 +32,8 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
-# Remover a chave 'features', se não for um plugin especial
-# Se você estiver usando funcionalidades específicas de navegação, elas são geralmente ativadas pelo tema ou plugins adicionais.
-
 nav:
-  - Home: index.md  # Verifique se você tem um arquivo index.md
+  - Home: index.md  
   - Fase 1 - Processo de Avaliação: fase1.md
 
 markdown_extensions:
