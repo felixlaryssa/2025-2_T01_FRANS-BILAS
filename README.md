@@ -16,7 +16,7 @@ Frances “Fran” Bilas foi uma das seis mulheres programadoras originais do EN
 ## Sistema Escolhido
 
 O **SouGov.br** é uma plataforma voltada aos servidores públicos federais (ativos, inativos e pensionistas) e oferece informações relacionadas apenas à vida funcional desse público. Com isso, a plataforma objetiva reduzir a burocracia nos processos da vida financeira e trabalhista.
-O sistema oferece  algumas funcionalidades como **cadastro, autenticação, envio de documentos, emissão de relatórios, comprovante de rendimentos, consultas e afastamentos, contracheques **, garantindo acessibilidade, transparência e segurança das informações.
+O sistema oferece  algumas funcionalidades como **cadastro, autenticação, envio de documentos, emissão de relatórios, comprovante de rendimentos, consultas e afastamentos, contracheques** , garantindo acessibilidade, transparência e segurança das informações.
 
 A plataforma foi **escolhida pelo grupo Fran Bilas**, após os membros sugerirem diferentes plataformas open-source e realizar-se uma votação em enquete para decidir qual seria a mais adequada para o projeto.
 
