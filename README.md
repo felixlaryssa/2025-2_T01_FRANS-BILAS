@@ -81,8 +81,8 @@ Eles abrangem questões sociais, econômicas e ambientais, servindo como referê
 Para este projeto, o grupo optou pelos seguintes ODS:
 
 * **ODS 9 — Indústria, Inovação e Infraestrutura:** O SouGov promove inovação tecnológica no setor público e cria infraestrutura digital acessível e confiável para milhões de usuários.
-.
-* **ODS 16 — Paz, Justiça e Instituições Eficazes:**O SouGov fortalece a transparência, a confiança e a eficiência das instituições públicas ao digitalizar processos de gestão de pessoas.
+
+* **ODS 16 — Paz, Justiça e Instituições Eficazes:** O SouGov fortalece a transparência, a confiança e a eficiência das instituições públicas ao digitalizar processos de gestão de pessoas.
 
 ---
 
