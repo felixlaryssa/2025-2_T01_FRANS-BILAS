@@ -34,7 +34,7 @@ A plataforma foi **escolhida pelo grupo Fran Bilas**, após os membros sugerirem
 
 <details>
   <summary>Versão SouGov Mobile</summary>
-  Versão X.X — Versão mobile utilizada ao longo desta avaliação.
+  Versão 5.573 — Versão mobile utilizada ao longo desta avaliação.
 </details>
 
 
