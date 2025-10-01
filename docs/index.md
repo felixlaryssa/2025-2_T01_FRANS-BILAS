@@ -1,4 +1,4 @@
-# Qualidade de software -  Grupo Fran Bilas Turma 2 2025.2
+# Qualidade de software -  Grupo Fran Bilas Turma 2 (2025.2)
 
 ## Sobre o Projeto
 
@@ -66,7 +66,6 @@ Fonte:
 <a href="https://github.com/vevetin">Laís Soares</a> e 
 <a href="https://github.com/delvale412">Matheus Do Vale</a>.
 </div>
-
 
 
 **Objetivos de Desenvolvimento Sustentável (ODS) Escolhidos:**
@@ -145,7 +144,6 @@ Fonte:
 </div>
 
 
-
 ## Histórico de Versões
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
@@ -167,4 +165,6 @@ Fonte:
 <a href="https://github.com/vevetin">Laís Soares</a> e 
 <a href="https://github.com/delvale412">Matheus Do Vale</a>.
 </div>
+
+
 

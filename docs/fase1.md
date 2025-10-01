@@ -115,6 +115,7 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 
 ---------------------
 
+
 ## Bibliografia
 
 > PRESSMAN, R. S.; MAXIM, B. R. *Engenharia de Software: uma abordagem profissional*. 8. ed. McGraw Hill, 2016.
@@ -134,6 +135,7 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 > Governo Federal. *Plataforma Gov.br – Serviços digitais para o cidadão*. Disponível em: <https://www.gov.br>. Acesso em: 27 setembro 2025.
 
 -----------------
+
 
 ## Histórico de versão
 
