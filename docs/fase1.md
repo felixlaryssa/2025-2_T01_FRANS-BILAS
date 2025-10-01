@@ -9,16 +9,17 @@
 
 <details>
   <summary>Versão SouGov Desktop</summary>
-  Versão X.X — Versão desktop utilizada ao longo desta avaliação.
+  Versão 3.0 — Versão desktop utilizada ao longo desta avaliação.
 </details>
 
 <details>
   <summary>Versão SouGov Mobile</summary>
-  Versão X.X — Versão mobile utilizada ao longo desta avaliação.
+  Versão 4.0 — Versão mobile utilizada ao longo desta avaliação.
 </details>
 
 ## 1. Objetivo
-O objetivo desta fase é **definir os requisitos de avaliação de qualidade** do sistema **SouGov.br**, com ênfase nas características de **Adequação Funcional** e **Confiabilidade**.  
+O objetivo desta fase é **definir os requisitos de avaliação de qualidade** do sistema **SouGov.br**, com ênfase nas características de **Adequação Funcional** e **Confiabilidade**. 
+
 Este documento apresenta o escopo da avaliação, identifica as partes interessadas e descreve o modelo de qualidade que orientará as próximas etapas da análise.
 
 
@@ -32,7 +33,7 @@ Este documento apresenta o escopo da avaliação, identifica as partes interessa
 
 ## 3. Descrição do Software
 O **SouGov.br** é um aplicativo móvel e uma plataforma web que centralizam funcionalidades de **gestão de pessoas do setor público federal**.  
-Entre os principais serviços oferecidos estão:  
+Entre os [principais serviços oferecidos](https://www.gov.br/servidor/pt-br/assuntos/sou-gov.br/servicos-disponiveis-aplicativo-sou-gov.br) estão:  
 
 - Consulta de contracheque;  
 - Solicitação e acompanhamento de benefícios;  
@@ -44,10 +45,10 @@ Entre os principais serviços oferecidos estão:
 
 ## 4. Classificação do Tipo de Produto
 
-- **De acordo com a IEEE 1062:**  
+- **De acordo com a [IEEE 1062](https://homepages.dcc.ufmg.br/~rodolfo/GPS1-Turma11/padraoIEEEProcessoAquisicao.pdf):**  
   O SouGov.br enquadra-se na categoria **COTS (Commercial Off-The-Shelf Software)**, por ser disponibilizado de forma padronizada a todos os usuários. Nesse contexto, o “fabricante” é o próprio governo, que provê o software como serviço público.  
 
-- **De acordo com Pressman:**  
+- **De acordo com [Pressman](https://archive.org/details/pressman-engenharia-de-software-uma-abordagem-profissional-8a/mode/1up):**  
   Apesar de não ter finalidade comercial direta, o sistema aproxima-se da definição de **Software Comercial**, considerando que busca **automatizar processos sociais e integrar serviços governamentais**, beneficiando grande número de usuários.  
 
 
@@ -93,7 +94,7 @@ Os resultados da avaliação visam:
     - Notificações.  
 
 
-## 9. Relação com os Objetivos de Desenvolvimento Sustentável (ODS)
+## 9. Relação com os [Objetivos de Desenvolvimento Sustentável (ODS)](https://brasil.un.org/pt-br/sdgs)
 
 - **ODS 16 — Paz, Justiça e Instituições Eficazes**  
   O SouGov.br contribui para a **transparência**, o **fortalecimento institucional** e a **eficiência** da gestão pública ao digitalizar processos administrativos.  
@@ -146,6 +147,7 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 | 1.0    | 28/09/2025 | Versão inicial e incompleta da fase 1 | [Carlos Edurado](https://github.com/CarlosEduardoMendesdeMesquita)   |
 | 2.0    | 28/09/2025 | Versão completa da fase 1 | [Laryssa Felix](https://github.com/felixlaryssa) e  [Matheus do Vale](https://github.com/delvale412)  |
 | 3.0    | 29/09/2025 | Versão aprimorada da fase 1 | [Laryssa Felix](https://github.com/felixlaryssa)  |
+| 4.0    | 01/10/2025 | Adicionando referênciação | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh) |
 
 <div style="text-align: center; margin: 0; font-size: small;">
 Fonte: 
