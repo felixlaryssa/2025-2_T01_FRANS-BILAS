@@ -51,12 +51,52 @@ Entre os [principais serviços oferecidos](https://www.gov.br/servidor/pt-br/ass
 - **De acordo com [Pressman](https://archive.org/details/pressman-engenharia-de-software-uma-abordagem-profissional-8a/mode/1up):**  
   Apesar de não ter finalidade comercial direta, o sistema aproxima-se da definição de **Software Comercial**, considerando que busca **automatizar processos sociais e integrar serviços governamentais**, beneficiando grande número de usuários.  
 
-## 4. Organograma Funcional do SouGov.br
+## 5. Organograma Funcional do SouGov.br
 
 O **SouGov.br** opera através de uma arquitetura em camadas bem definida, conforme apresentado no organograma funcional a seguir:
 
+```
+Organograma Funcional do SouGov.br
+│
+├── 1. Camada de Governança e Gestão
+│   ├── Ministério da Gestão e Inovação (MGI) → Define diretrizes e políticas.
+│   └── Órgãos de Controle (CGU, TCU) → Monitoram conformidade.
+│
+├── 2. Camada de Desenvolvimento e Infraestrutura
+│   └── Serpro (Fornecedor/Desenvolvedor)
+│       ├── Desenvolvimento e manutenção (Android, iOS, Web).
+│       ├── Infraestrutura em nuvem e hospedagem.
+│       └── Integração com sistemas estruturantes.
+│
+├── 3. Camada de Integrações
+│   ├── Gov.br → Autenticação e login unificado.
+│   ├── SIAPE → Dados funcionais e folha de pagamento.
+│   ├── Banco Central / Instituições Financeiras → Consignações.
+│   └── Prova de Vida Digital (Dataprev/INSS) → Autenticação biométrica.
+│
+├── 4. Camada de Aplicação (SouGov.br)
+│   └── Módulos Centrais
+│       ├── Consulta de contracheque.
+│       ├── Solicitação de benefícios.
+│       ├── Atualização cadastral.
+│       ├── Prova de vida digital.
+│       ├── Gestão de consignações.
+│       ├── Carteira funcional digital.
+│       ├── Posse digital.
+│       └── Gestão de estagiários e anistiados.
+│
+└── 5. Camada de Usuários
+    ├── Servidores Ativos → Acessam contracheque, férias, licenças, etc.
+    ├── Aposentados → Realizam prova de vida, consultam histórico.
+    ├── Pensionistas → Gerenciam pagamentos, benefícios, prova de vida.
+    ├── Estagiários → Gerenciam contratos, frequência, documentos.
+    └── Anistiados → Acessam benefícios, histórico e cadastros.
+```
 
-## 5. Propósito da Avaliação e Uso Pretendido
+Esta estrutura hierárquica demonstra como o sistema opera de forma integrada, conectando diferentes níveis organizacionais desde a **governança** até os **usuários finais**, passando por **infraestrutura técnica**, **integrações sistêmicas** e **funcionalidades de aplicação**.
+
+
+## 6. Propósito da Avaliação e Uso Pretendido
 A avaliação tem como propósito verificar se o software atende às necessidades de seus usuários em termos de **adequação funcional** e **confiabilidade**, considerando sua relevância para a gestão pública.  
 
 Os resultados da avaliação visam:  
@@ -66,26 +106,26 @@ Os resultados da avaliação visam:
 4. Sustentar a transparência e a confiança nos serviços digitais oferecidos pelo governo.  
 
 
-## 6. Modelo de Qualidade
+## 7. Modelo de Qualidade
 
 ### 6.1 Adequação Funcional
 - **Completude funcional:** verificação da presença de todas as funções necessárias;  
 - **Correção funcional:** avaliação da precisão dos resultados produzidos;  
 - **Adequação à tarefa:** análise da contribuição das funções para o alcance dos objetivos do usuário.  
 
-### 6.2 Confiabilidade
+### 7.2 Confiabilidade
 - **Maturidade:** estabilidade do sistema durante a operação;  
 - **Disponibilidade:** capacidade de estar operacional quando necessário;  
 - **Tolerância a falhas:** continuidade do funcionamento mesmo diante de falhas parciais;  
 - **Recuperabilidade:** capacidade de retornar ao estado operacional após falhas.  
 
 
-## 7. Critérios de Priorização
+## 8. Critérios de Priorização
 - A **adequação funcional** possui prioridade máxima, visto que assegura que as necessidades dos usuários sejam plenamente atendidas.  
 - A **confiabilidade** assume papel essencial, considerando o tratamento de **dados pessoais sensíveis** e a execução de **processos críticos** para a administração pública.  
 
 
-## 8. Escopo, Profundidade e Objetos de Avaliação
+## 9. Escopo, Profundidade e Objetos de Avaliação
 - **Escopo:** Aplicativo SouGov (Android/iOS) e versão web.  
 
 - **Profundidade:** Análise funcional e não funcional com foco nas características de adequação funcional e confiabilidade. 
@@ -98,7 +138,7 @@ Os resultados da avaliação visam:
     - Notificações.  
 
 
-## 9. Relação com os [Objetivos de Desenvolvimento Sustentável (ODS)](https://brasil.un.org/pt-br/sdgs)
+## 10. Relação com os [Objetivos de Desenvolvimento Sustentável (ODS)](https://brasil.un.org/pt-br/sdgs)
 
 - **ODS 16 — Paz, Justiça e Instituições Eficazes**  
   O SouGov.br contribui para a **transparência**, o **fortalecimento institucional** e a **eficiência** da gestão pública ao digitalizar processos administrativos.  
@@ -108,7 +148,7 @@ Os resultados da avaliação visam:
 
 **Justificativa:** A plataforma representa um avanço na modernização da infraestrutura digital da administração pública, aumentando a eficiência institucional e fortalecendo a confiança social nos serviços governamentais.  
 
-## 10. Conclusão
+## 11. Conclusão
 Esta página da dcumentação apresenta a **Fase 1 da avaliação de qualidade do SouGov.br**, estabelecendo o escopo, as partes interessadas e o modelo de qualidade com foco em **adequação funcional** e **confiabilidade**.  
 
 As etapas subsequentes consistirão em:  
@@ -152,6 +192,7 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 | 2.0    | 28/09/2025 | Versão completa da fase 1 | [Laryssa Felix](https://github.com/felixlaryssa) e  [Matheus do Vale](https://github.com/delvale412)  |
 | 3.0    | 29/09/2025 | Versão aprimorada da fase 1 | [Laryssa Felix](https://github.com/felixlaryssa)  |
 | 4.0    | 01/10/2025 | Adicionando referênciação | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh) |
+| 5.0    | 01/10/2025 | Adicionando Organograma e Escopo | [Matheus do Vale](https://github.com/delvale412) e  [Giovana Ferreira Santos](...) |
 
 <div style="text-align: center; margin: 0; font-size: small;">
 Fonte: 
