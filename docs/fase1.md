@@ -103,7 +103,6 @@ Os resultados da avaliação visam:
 
 **Justificativa:** A plataforma representa um avanço na modernização da infraestrutura digital da administração pública, aumentando a eficiência institucional e fortalecendo a confiança social nos serviços governamentais.  
 
-
 ## 10. Conclusão
 Esta página da dcumentação apresenta a **Fase 1 da avaliação de qualidade do SouGov.br**, estabelecendo o escopo, as partes interessadas e o modelo de qualidade com foco em **adequação funcional** e **confiabilidade**.  
 

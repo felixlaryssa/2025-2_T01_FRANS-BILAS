@@ -1,4 +1,4 @@
-# Qualidade de software -  Grupo Fran Bilas Turma 2 (2025.2)
+# Qualidade de software -  Grupo Fran Bilas Turma 2 2025.2
 
 ## Sobre o Projeto
 
