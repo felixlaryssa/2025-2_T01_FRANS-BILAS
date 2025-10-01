@@ -51,6 +51,10 @@ Entre os [principais serviços oferecidos](https://www.gov.br/servidor/pt-br/ass
 - **De acordo com [Pressman](https://archive.org/details/pressman-engenharia-de-software-uma-abordagem-profissional-8a/mode/1up):**  
   Apesar de não ter finalidade comercial direta, o sistema aproxima-se da definição de **Software Comercial**, considerando que busca **automatizar processos sociais e integrar serviços governamentais**, beneficiando grande número de usuários.  
 
+## 4. Organograma Funcional do SouGov.br
+
+O **SouGov.br** opera através de uma arquitetura em camadas bem definida, conforme apresentado no organograma funcional a seguir:
+
 
 ## 5. Propósito da Avaliação e Uso Pretendido
 A avaliação tem como propósito verificar se o software atende às necessidades de seus usuários em termos de **adequação funcional** e **confiabilidade**, considerando sua relevância para a gestão pública.  
