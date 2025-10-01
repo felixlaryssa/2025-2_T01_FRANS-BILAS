@@ -108,7 +108,7 @@ Os resultados da avaliação visam:
 
 ## 7. Modelo de Qualidade
 
-### 6.1 Adequação Funcional
+### 7.1 Adequação Funcional
 - **Completude funcional:** verificação da presença de todas as funções necessárias;  
 - **Correção funcional:** avaliação da precisão dos resultados produzidos;  
 - **Adequação à tarefa:** análise da contribuição das funções para o alcance dos objetivos do usuário.  
@@ -126,16 +126,40 @@ Os resultados da avaliação visam:
 
 
 ## 9. Escopo, Profundidade e Objetos de Avaliação
-- **Escopo:** Aplicativo SouGov (Android/iOS) e versão web.  
 
-- **Profundidade:** Análise funcional e não funcional com foco nas características de adequação funcional e confiabilidade. 
+### 9.1 Escopo de Usuários
+- **Servidores ativos:** contracheque, férias, licenças, consignações, gestão de dependentes, oportunidades internas, prova de vida, posse digital e carteira funcional.
 
-- **Objetos de avaliação:**  
-    - Consulta de contracheque;  
-    - Atualização cadastral;  
-    - Prova de vida digital;  
-    - Posse digital;  
-    - Notificações.  
+- **Aposentados:** manutenção de benefícios, prova de vida digital, consulta de contracheques, atualização cadastral e acesso a documentos funcionais digitais.
+
+- **Pensionistas:** acesso e atualização de dados do benefício, consultas de pagamentos, prova de vida e manutenção de vínculo.
+
+- **Estagiários:** gestão do contrato de estágio, documentos comprobatórios, acompanhamento de frequência e comunicações administrativas (quando aplicável).
+
+- **Anistiados:** gestão dos benefícios, histórico funcional, consulta a pagamentos e atualização cadastral.
+
+### 9.2 Escopo Técnico
+- **Aplicativo móvel (Android/iOS).**
+
+- **Versão web acessível via navegador.**
+
+- **Integrações com sistemas estruturantes** da Administração Pública (SIAPE, Gov.br, Prova de Vida Digital, serviços do Serpro e demais sistemas de apoio).
+
+### 9.3 Profundidade da Avaliação
+- **Adequação Funcional:** análise de todas as funções críticas relacionadas a cada perfil de usuário.
+
+- **Confiabilidade:** verificação da estabilidade, consistência e recuperação do aplicativo em diferentes cenários de uso.
+
+### 9.4 Objetos de Avaliação
+- **Servidores Ativos:** contracheque, férias, licenças, consignações, posse digital, carteira funcional e solicitações de benefícios.
+
+- **Aposentados:** prova de vida, contracheque, atualização cadastral e histórico funcional.
+
+- **Pensionistas:** prova de vida, manutenção de benefício, consultas de pagamentos e documentos funcionais.
+
+- **Estagiários:** gestão do vínculo, termos de compromisso, comprovação de frequência e documentos administrativos.
+
+- **Anistiados:** benefícios concedidos, registros funcionais, histórico de pagamentos e atualizações cadastrais. 
 
 
 ## 10. Relação com os [Objetivos de Desenvolvimento Sustentável (ODS)](https://brasil.un.org/pt-br/sdgs)
@@ -192,7 +216,7 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 | 2.0    | 28/09/2025 | Versão completa da fase 1 | [Laryssa Felix](https://github.com/felixlaryssa) e  [Matheus do Vale](https://github.com/delvale412)  |
 | 3.0    | 29/09/2025 | Versão aprimorada da fase 1 | [Laryssa Felix](https://github.com/felixlaryssa)  |
 | 4.0    | 01/10/2025 | Adicionando referênciação | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh) |
-| 5.0    | 01/10/2025 | Adicionando Organograma e Escopo | [Matheus do Vale](https://github.com/delvale412) e  [Giovana Ferreira Santos](...) |
+| 5.0    | 01/10/2025 | Adicionando Organograma e Escopo | [Matheus do Vale](https://github.com/delvale412) e [Giovana Ferreira Santos](https://github.com/gih7915) |
 
 <div style="text-align: center; margin: 0; font-size: small;">
 Fonte: 
