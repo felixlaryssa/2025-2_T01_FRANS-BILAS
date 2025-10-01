@@ -8,13 +8,8 @@
 </div>
 
 <details>
-  <summary>Versão SouGov Desktop</summary>
-  Versão 3.0 — Versão desktop utilizada ao longo desta avaliação.
-</details>
-
-<details>
   <summary>Versão SouGov Mobile</summary>
-  Versão 4.0 — Versão mobile utilizada ao longo desta avaliação.
+  Versão 5.573 — Versão mobile utilizada ao longo desta avaliação.
 </details>
 
 ## 1. Objetivo
@@ -223,7 +218,6 @@ Fonte:
 <a href="https://github.com/AnaBeatrizMassuh">Ana Beatriz Massuh</a>, 
 <a href="https://github.com/CarlosEduardoMendesdeMesquita">Carlos Eduardo Mendes</a>, 
 <a href="https://github.com/gih7915">Giovana Ferreira</a>, 
-<a href="https://github.com/felixlaryssa">Laryssa Felix</a>, 
-<a href="https://github.com/vevetin">Laís Soares</a> e 
+<a href="https://github.com/felixlaryssa">Laryssa Felix</a>, e
 <a href="https://github.com/delvale412">Matheus Do Vale</a>.
 </div>
