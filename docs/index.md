@@ -4,7 +4,9 @@
 
 Esta página é dedicada à documentação de todos os artefatos criados pelo grupo Fran Bilas no segundo semestre de 2025, na disciplina de Qualidade de Software da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE-UnB).
 
-Frances “Fran” Bilas foi uma das seis mulheres programadoras originais do ENIAC, o primeiro computador eletrônico digital de grande escala do mundo. Nascida em 2 de março de 1922, na Filadélfia, e falecida em 18 de julho de 2012, ela estudou matemática e física no Chestnut Hill College, onde recebeu uma bolsa de estudos. Durante a Segunda Guerra Mundial, Fran foi selecionada para integrar a equipe que programava o ENIAC, responsável por calcular trajetórias balísticas e resolver problemas científicos complexos que antes eram feitos manualmente. Seu trabalho consistia em traduzir cálculos abstratos em operações compreensíveis para o hardware do computador, em uma época em que a contribuição feminina na tecnologia era pouco reconhecida. Apesar da falta de visibilidade durante décadas, Fran Bilas deixou um legado pioneiro na história da computação e hoje é lembrada como uma das primeiras mulheres programadoras do mundo, tendo inclusive sido homenageada com sistemas de computação de alto desempenho que carregam seu nome.
+Frances “Fran” Bilas foi uma das seis mulheres programadoras originais do ENIAC, o primeiro computador eletrônico digital de grande escala do mundo. Nascida em 2 de março de 1922, na Filadélfia, e falecida em 18 de julho de 2012, ela estudou matemática e física no Chestnut Hill College, onde recebeu uma bolsa de estudos. 
+
+Durante a Segunda Guerra Mundial, Fran foi selecionada para integrar a equipe que programava o ENIAC, responsável por calcular trajetórias balísticas e resolver problemas científicos complexos que antes eram feitos manualmente. Seu trabalho consistia em traduzir cálculos abstratos em operações compreensíveis para o hardware do computador, em uma época em que a contribuição feminina na tecnologia era pouco reconhecida. Apesar da falta de visibilidade durante décadas, Fran Bilas deixou um legado pioneiro na história da computação e hoje é lembrada como uma das primeiras mulheres programadoras do mundo, tendo inclusive sido homenageada com sistemas de computação de alto desempenho que carregam seu nome.
 
 <div style="text-align: center;">
   <img src="assets/images/Frances.png" alt="SouGov.br" style="max-width: 100%; height: auto;">
@@ -15,7 +17,7 @@ Frances “Fran” Bilas foi uma das seis mulheres programadoras originais do EN
 
 ## Sistema Escolhido
 
-O **SouGov.br** é uma plataforma voltada aos servidores públicos federais (ativos, inativos e pensionistas) e oferece informações relacionadas apenas à vida funcional desse público. Com isso, a plataforma objetiva reduzir a burocracia nos processos da vida financeira e trabalhista.
+O [**SouGov.br**](https://sougov.sigepe.gov.br/sougov) é uma plataforma voltada aos servidores públicos federais (ativos, inativos e pensionistas) e oferece informações relacionadas apenas à vida funcional desse público. Com isso, a plataforma objetiva reduzir a burocracia nos processos da vida financeira e trabalhista.
 O sistema oferece  algumas funcionalidades como **cadastro, autenticação, envio de documentos, emissão de relatórios, comprovante de rendimentos, consultas e afastamentos, contracheques**, garantindo acessibilidade, transparência e segurança das informações.
 
 A plataforma foi **escolhida pelo grupo Fran Bilas**, após os membros sugerirem diferentes plataformas open-source e realizar-se uma votação em enquete para decidir qual seria a mais adequada para o projeto.
@@ -157,6 +159,7 @@ Fonte:
 | :----: | :--------: | :------------------------------------: | :------: |
 | 1.0    | 28/09/2025 | Criação e inclusão do README do projeto | [Laryssa Felix](https://github.com/felixlaryssa) |
 | 2.0    | 29/09/2025 | Adição de tabela e imagens | [Laryssa Felix](https://github.com/felixlaryssa) |
+| 3.0    | 01/10/2025 | Adição de referênciação | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)|
 
 <div style="text-align: center; margin: 0; font-size: small;">
 Fonte: 
