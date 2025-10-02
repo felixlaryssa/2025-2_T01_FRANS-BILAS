@@ -36,7 +36,7 @@ A plataforma foi **escolhida pelo grupo Fran Bilas**, após os membros sugerirem
 
 ## Vídeo de Apresentação
 
-**📹 [Apresentação do SouGov.br - Grupo Frans Bilas](https://www.youtube.com/watch?v=f_8porJ1fho)**
+**📹 [Apresentação do SouGov.br - Gestor do software SouGov](https://www.youtube.com/watch?v=f_8porJ1fho)**
 
 -------
 
