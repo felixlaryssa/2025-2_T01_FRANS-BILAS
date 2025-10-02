@@ -115,12 +115,6 @@ Para este projeto, o grupo optou pelos seguintes ODS:
     <tr>
       <td></td> 
       <td align="center">
-        <a href="http://github.com/vevetin">
-          <img src="https://avatars.githubusercontent.com/u/92321749?v=4" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt=""/>
-          <br /><sub><b>Laís Soares</b></sub>
-        </a>
-      </td>
-      <td align="center">
         <a href="https://github.com/delvale412">
           <img src="https://avatars.githubusercontent.com/u/87723296?v=4" width="100" height="100" style="border-radius: 50%; object-fit: cover;" alt=""/>
           <br /><sub><b>Matheus Do Vale</b></sub>
