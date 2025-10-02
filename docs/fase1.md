@@ -136,8 +136,6 @@ Os resultados da avaliação visam:
 ### 9.2 Escopo Técnico
 - **Aplicativo móvel (Android/iOS).**
 
-- **Versão web acessível via navegador.**
-
 - **Integrações com sistemas estruturantes** da Administração Pública (SIAPE, Gov.br, Prova de Vida Digital, serviços do Serpro e demais sistemas de apoio).
 
 ### 9.3 Profundidade da Avaliação
