@@ -185,11 +185,11 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 
 | Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
 | --------- | ------------- | ------------------- | ----------------- |
-| 200060783 | Ana Beatriz W. Massuh | ........... | 18,6% |
-| 190085584 | Carlos Eduardo Mendes | ............ | 18,6% |
-| 231034707 | Giovana Ferreira Santos | ........... | 18,6% |
-| 231026840 | Laryssa Felix | ............ | 22% |
-| 202070064 | Matheus do Vale | ................. | 22% |
+| 200060783 | Ana Beatriz W. Massuh | Refinamento e Revisão final | 18,6% |
+| 190085584 | Carlos Eduardo Mendes |  Pesquisa inicial e Setup inicial | 18,6% |
+| 231034707 | Giovana Ferreira Santos | Refinamento e Revisão final | 18,6% |
+| 231026840 | Laryssa Felix |  Pesquisa e Criação final do gitpages  | 22% |
+| 202070064 | Matheus do Vale | Pesquisa e Criação final do gitpages | 22% |
 
 ---------------------
 
