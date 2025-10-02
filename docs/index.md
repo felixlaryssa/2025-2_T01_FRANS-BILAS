@@ -34,7 +34,12 @@ A plataforma foi **escolhida pelo grupo Fran Bilas**, após os membros sugerirem
   Versão 5.573 — Versão mobile utilizada ao longo desta avaliação.
 </details>
 
+## Vídeo de Apresentação
+
+**📹 [Apresentação do SouGov.br - Grupo Frans Bilas](https://www.youtube.com/watch?v=f_8porJ1fho)**
+
 -------
+
 
 **Características de Qualidade Analisadas do SouGov.br (ISO/IEC 25010):**
 
