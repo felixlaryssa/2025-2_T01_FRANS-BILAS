@@ -177,6 +177,22 @@ Essas ações possibilitarão a análise aprofundada das características avalia
 
 ---------------------
 
+## Tabela de Contribuição - Grupo Frans Bilas
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Tabela 4: Contribuições dos Membros do Grupo
+</div>
+
+| Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
+| --------- | ------------- | ------------------- | ----------------- |
+| 200060783 | Ana Beatriz W. Massuh | ........... | 18,6% |
+| 190085584 | Carlos Eduardo Mendes | ............ | 18,6% |
+| 231034707 | Giovana Ferreira Santos | ........... | 18,6% |
+| 231026840 | Laryssa Felix | ............ | 22% |
+| 202070064 | Matheus do Vale | ................. | 22% |
+
+---------------------
+
 ## Bibliografia
 
 > PRESSMAN, R. S.; MAXIM, B. R. *Engenharia de Software: uma abordagem profissional*. 8. ed. McGraw Hill, 2016.
