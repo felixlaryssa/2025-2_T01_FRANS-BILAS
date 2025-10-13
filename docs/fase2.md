@@ -58,17 +58,16 @@ Na metodologia GQM, o passo inicial (Fase 1) é a definição de Metas, o "G" de
 
 | Objeto (O que será analisado?) |	Propósito (Por que o objeto será analisado?) |	Qualidade do Foco (Propriedade do objeto)	| Ponto de Vista (Quem vai utilizar os dados?)	| Ambiente (Contexto da análise) |
 | ------------------------------ | --------------------------------------------- | ------------------------------------------ | --------------------------------------------- | ------------------------------ |
-| Módulos Críticos do SouGov.br Mobile (Contracheque, Prova de Vida Digital, Férias/Licenças) |	Avaliação e Melhoria |	Adequação Funcional (Completude e Correção)	| Usuários Finais (Servidores Ativos, Aposentados, Pensionistas)	| No contexto do Serviço Público Digital Federal |
-| Integrações Sistêmicas Críticas (Com SIAPE, Gov.br e Prova de Vida Digital)	| Avaliação e Acompanhamento	| Confiabilidade (Maturidade, Disponibilidade e Tolerância a Falhas) |	Fornecedor/Desenvolvedor (Serpro) e Gestor (MGI)	| No contexto do Projeto de Modernização Governamental |
-| Processo de Suporte e Manutenção do SouGov.br |	Controle e Melhoria |	Correção/Confiabilidade (Redução de Falhas Operacionais e de Cálculo) |	Gestor Sênior (MGI) e Órgãos de Controle (CGU, TCU)	| No contexto dos Problemas de performance e incidentes |
+| Aplicativo móvel SouGov.br | Avaliar e melhorar a adequação funcional do sistema | Completude, correção e adequação à tarefa | Gestores de produto, analistas de QA e usuários finais | Operação pública em dispositivos móveis, dados observáveis via monitoramento funcional |
+| Descrição Aplicada ao SouGov.br | Aplicativo móvel SouGov.br e seus serviços de backend | Controlar, monitorar e prever falhas de estabilidade e disponibilidade | Maturidade, disponibilidade, recuperabilidade | Usuários | Execução real do aplicativo em dispositivos móveis com dependência de APIs públicas |
 
 #### Metas (Goals) Formalizadas 
 
   A partir do quadro GQM, podemos declarar as metas formais:
 
-GOAL 1: Avaliar os Módulos Críticos do SouGov.br Mobile (Contracheque, Prova de Vida, Férias) com o propósito de melhoria, focando na Adequação Funcional (Completude e Correção), do ponto de vista dos Usuários Finais, no contexto do Serviço Público Digital Federal.
+GOAL 1: Avaliar e melhorar a adequação funcional do sistema SouGov.br com o propósito de focar na completude, correção e adequação à tarefa, do ponto de vista dos gestores de produto, analistas de QA e usuários finais, no contexto de operação pública em dispositivos móveis, dados observáveis via monitoramento funcional.
 
-GOAL 2: Acompanhar as Integrações Sistêmicas Críticas (SIAPE, Gov.br) com o propósito de controle e avaliação, focando na Confiabilidade (Disponibilidade e MTBF), do ponto de vista do Fornecedor/Desenvolvedor (Serpro) e Gestor (MGI), no contexto do Projeto de Modernização Governamental.
+GOAL 2: Controlar, monitorar e prever falhas de estabilidade e disponibilidade do Aplicativo móvel SouGov.br e seus serviços de backend, com foco na maturidade, disponibilidade, recuperabilidade, no ponto de vista dos usuários, no contexto da execução real do aplicativo em dispositivos móveis com dependência de APIs públicas.
 
 ### 3.2. Definição das Questões e Métricas (Abordagem GQM - Q e M)
 
