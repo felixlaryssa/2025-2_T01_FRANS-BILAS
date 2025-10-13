@@ -1,24 +1,56 @@
-# Fase 2 — Medição e análise (Abordagem GQM)
+# Fase 2 — Especificação da Avaliação (Abordagem GQM)
 
 ## 1. Introdução
 
-  Esta fase tem como objetivo principal medir as características de qualidade definidas na Fase 1 (Adequação Funcional e Confiabilidade) e analisar os dados coletados. O processo segue o segundo e terceiro passos do modelo GQM:
+  Esta fase tem como objetivo principal especificar a avaliação das características **Adequação Funcional** e **Confiabilidade** do aplicativo **SouGov.br**, conforme os critérios definidos na [**fase 1**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/). A partir dessas definições iniciais, são estabelecidas as próximas etapas do processo de medição e análise de qualidade, das quais as três primeiras serão desenvolvidas nesta fase de especificação: 
+.
 
-1. Definir Questões (Baseadas nos Objetivos da Fase 1).
+1. **Definir Metas (Goals)** – Estabelecer os objetivos da avaliação, alinhados às características de qualidade selecionadas.
 
-2. Definir Métricas (Para responder às Questões).
+2. **Definir Questões (Questions)** – Formular perguntas baseadas nas metas da Fase 1, que direcionem a análise dos resultados.
 
-3. Coletar Dados (Mensuração).
+3. **Definir Métricas (Metrics)** – Identificar indicadores quantitativos e qualitativos capazes de responder às questões propostas.
 
-4. Analisar e Interpretar (Conclusão e Base para a Fase 3).
+4. **Coletar Dados (Mensuração – Fase 3)** – Realizar a medição prática dos indicadores definidos.
 
-  O foco da medição está nos Objetos de Avaliação (Módulos/Serviços críticos) e nos Escopos de Usuários definidos para o aplicativo SouGov.br (Mobile).
+5. **Analisar e Interpretar (Conclusões – Fase 3)** – Interpretar os resultados obtidos e utilizá-los como base para decisões de melhoria contínua.
 
-## 2. Abordagem GQM: Definição de Questões e Métricas
+  O foco da medição está voltado para os objetos de avaliação (módulos e serviços críticos) e para os escopos de usuários definidos no contexto do aplicativo SouGov.br (versão mobile).
+
+<details>
+  <summary>Versão SouGov Mobile</summary>
+  Versão 5.573 — Versão mobile utilizada ao longo desta avaliação.
+</details>
+
+## 2. Metodologia - Modelo Goal Question Metric (GQM)
+
+O modelo **Goal Question Metric (GQM)** define que cada **meta de avaliação (Goal)** deve ser desdobrada em **questões (Questions)** que reflitam aspectos observáveis do sistema, e em **métricas (Metrics)** que respondam a essas questões de forma objetiva. A aplicação do GQM assegura que cada métrica esteja diretamente relacionada a um objetivo de negócio, evitando medições sem valor prático.
+
+
+<div style="text-align: center;">
+  <img src="../assets/images/gqm.png" alt="SouGov.br" style="max-width: 100%; height: auto;">
+</div>
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Imagem 1:  Modelo Goal Question Metric (GQM)
+</div>
+
+### Estrutura Analítica (modelo base)
+
+| **Elemento**       | **Definição no GQM**                |
+|--------------------|------------------------------------|
+| **Objeto (O que será analisado)** | Processo, produto ou recurso |
+| **Propósito (Por que será analisado)** | Avaliação, controle, melhoria |
+| **Qualidade do foco** | Característica de interesse |
+| **Ponto de vista** | Quem utilizará os resultados |
+| **Ambiente** | Contexto da análise |
+
+
+
+## 3. Abordagem GQM: Definição de Metas, Questões e Métricas
 
   As métricas são categorizadas por característica de qualidade e subcaracterística, conforme o Modelo de Qualidade ISO/IEC 25010 da Fase 1.
 
-### 2.1. Definição das Metas (Goals) do Projeto (Fase GQM - G)
+### 3.1. Definição das Metas (Goals) do Projeto (Fase GQM - G)
 
 Na metodologia GQM, o passo inicial (Fase 1) é a definição de Metas, o "G" de Goal. Embora a documentação da Fase 1 já tenha estabelecido o propósito e o escopo, formalizar as metas no formato GQM completo é crucial antes de mergulhar nas métricas.
 
@@ -30,7 +62,7 @@ Na metodologia GQM, o passo inicial (Fase 1) é a definição de Metas, o "G" de
 | Integrações Sistêmicas Críticas (Com SIAPE, Gov.br e Prova de Vida Digital)	| Avaliação e Acompanhamento	| Confiabilidade (Maturidade, Disponibilidade e Tolerância a Falhas) |	Fornecedor/Desenvolvedor (Serpro) e Gestor (MGI)	| No contexto do Projeto de Modernização Governamental |
 | Processo de Suporte e Manutenção do SouGov.br |	Controle e Melhoria |	Correção/Confiabilidade (Redução de Falhas Operacionais e de Cálculo) |	Gestor Sênior (MGI) e Órgãos de Controle (CGU, TCU)	| No contexto dos Problemas de performance e incidentes |
 
-#### Metas (Goals) Formalizadas
+#### Metas (Goals) Formalizadas 
 
   A partir do quadro GQM, podemos declarar as metas formais:
 
@@ -38,11 +70,11 @@ GOAL 1: Avaliar os Módulos Críticos do SouGov.br Mobile (Contracheque, Prova d
 
 GOAL 2: Acompanhar as Integrações Sistêmicas Críticas (SIAPE, Gov.br) com o propósito de controle e avaliação, focando na Confiabilidade (Disponibilidade e MTBF), do ponto de vista do Fornecedor/Desenvolvedor (Serpro) e Gestor (MGI), no contexto do Projeto de Modernização Governamental.
 
-### 2.2. Definição das Medição e Análise (Abordagem GQM - Q e M)
+### 3.2. Definição das Questões e Métricas (Abordagem GQM - Q e M)
 
 Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as características de qualidade definidas na Fase 1 e nas Metas (G) estabelecidas.
 
-#### 2.2.1. Adequação Funcional
+#### 3.2.1. Adequação Funcional
 
 | Característica |	Subcaracterística |	Questão (Q)	| Métrica (M)	| Fonte de Dados (Onde buscar)	| Tipo de Análise |
 | -------------- | ------------------ | ----------- | ----------- | ----------------------------- | ---------------- |
@@ -50,7 +82,7 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 | Adequação Funcional |	Correção Funcional	| Q2: Os resultados produzidos pelos serviços críticos (e.g., cálculo de contracheque, férias) estão corretos e em conformidade com as regras de negócio? |	M2: Taxa de Inconformidade Funcional (TIF) (Nerros_cálculo​/Ncálculos_auditados​ em %)	| 1. Registros de Chamados de Erro/Bug (Serpro/MGI): Filtrar por "Cálculo Incorreto" ou "Dados Divergentes". 2. Auditoria de Dados (Simulação): Comparação de 50 registros no SIAPE vs. SouGov.br.	| Teste de Caixa Preta e Auditoria |		
 | Adequação Funcional |	Adequação à Tarefa	| Q3: As funções críticas (e.g., Prova de Vida Digital) permitem que os usuários concluam suas tarefas de forma eficiente, sem falhas de usabilidade?	| M3: Taxa de Sucesso na Conclusão de Tarefas Críticas (TSCTC) (Ntarefas_completadas​/Ntentativas_totais​ em %)	| 1. Pesquisas de Satisfação e Comentários (App Stores): Análise de feedback sobre dificuldades de uso. 2. Dados de Telemetria (Acesso restrito - Simular): Taxa de Abandono em Funções Chave (Ex: Prova de Vida). |	Testes de Usabilidade e Análise de Comportamento |
 
-#### 2.2.2. Confiabilidade
+#### 3.2.2. Confiabilidade
 
 | Característica |	Subcaracterística |	Questão (Q)	| Métrica (M)	| Fonte de Dados (Onde buscar)	| Tipo de Análise |
 | -------------- | ------------------ | ----------- | ----------- | ----------------------------- | ---------------- |
@@ -58,11 +90,11 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 | Confiabilidade |	Tolerância a Falhas e Recuperabilidade	| Q5: Em caso de falha de integração (e.g., SIAPE, Gov.br), o sistema consegue se recuperar e restaurar a operação em tempo hábil?	| M5: Tempo Médio Para Reparo/Recuperação (TMPR ou MTTR) (Tempo em Horas/Minutos)	| 1. Relatórios de Incidentes Críticos (Serpro): Registros de quanto tempo levou para restaurar a funcionalidade após uma falha crítica. 2. Logs de Integração: Análise de rollback e tempo de restauração.	| Análise de Incidentes e Resiliência	|	
 | Confiabilidade |	Frequência de Falhas	| Q6: Qual a frequência de falhas operacionais que impactam diretamente o usuário final nos módulos críticos (e.g., crash do app, erro de servidor)?	| M6: Frequência de Falhas Operacionais (FFO) por Módulo (Nfalhas_operacionais​/Nsessões_usuário​ em % ou Taxa)	| 1. Registros Históricos de Incidentes (Serpro/MGI): Relatórios de Bug e Crash em Produção. 2. Logs de Servidor e Telemetria (Serpro/App Stores): Dados de erros críticos (crashes) reportados.	| Análise Estatística e de Logs de Erro	|	
 
-### 2.3. Análise e Interpretação dos Resultados
+### 3.3. Análise e Interpretação dos Resultados
 
 Após a coleta de dados, a análise se concentrará em correlacionar os resultados das métricas com as questões definidas.
 
-#### 2.3.1. Passos da Análise
+#### 3.3.1. Passos da Análise
 
 1. Visualização: Criação de gráficos e dashboards (e.g., Taxa de Inconformidade Funcional por Objeto, MTBF por Mês).
 
@@ -83,3 +115,4 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 | Versão | Data       | Descrição                             | Autor(a) |
 | ------ | ---------- | ------------------------------------- | -------- |
 | 1.0    | 12/10/2025 | Versão inicial da fase 2 | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
+| 2.0    | 12/10/2025 | Complementar fase 2 | [Laryssa Felix](https://github.com/felixlaryssa)  |
