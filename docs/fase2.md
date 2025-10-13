@@ -68,15 +68,15 @@ Após a coleta de dados, a análise se concentrará em correlacionar os resultad
 
 2. Comparação:
 
-* Baseline: Comparar os resultados das métricas com os objetivos de qualidade preestabelecidos (e.g., meta de TIF ≤ 2%, meta de Disponibilidade ≥ 99.5%).
+Baseline: Comparar os resultados das métricas com os objetivos de qualidade preestabelecidos (e.g., meta de TIF ≤ 2%, meta de Disponibilidade ≥ 99.5%).
 
-* Tendência: Analisar a evolução dos resultados ao longo do tempo (últimos 6 meses) para identificar tendências de melhoria ou degradação.
+Tendência: Analisar a evolução dos resultados ao longo do tempo (últimos 6 meses) para identificar tendências de melhoria ou degradação.
 
 3. Identificação de Causas Raiz: Para métricas que não atingirem as metas:
 
-* Analisar os logs de falha (M4, M5, M6) para identificar os módulos e as integrações mais instáveis.
+Analisar os logs de falha (M4, M5, M6) para identificar os módulos e as integrações mais instáveis.
 
-* Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) para entender o impacto no usuário.
+Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) para entender o impacto no usuário.
 
 4. Conclusão da Fase: Gerar um relatório consolidado com a performance do SouGov.br em relação à Adequação Funcional e Confiabilidade.
 
