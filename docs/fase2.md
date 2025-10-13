@@ -59,7 +59,7 @@ Na metodologia GQM, o passo inicial (Fase 1) é a definição de Metas, o "G" de
 | Objeto (O que será analisado?) |	Propósito (Por que o objeto será analisado?) |	Qualidade do Foco (Propriedade do objeto)	| Ponto de Vista (Quem vai utilizar os dados?)	| Ambiente (Contexto da análise) |
 | ------------------------------ | --------------------------------------------- | ------------------------------------------ | --------------------------------------------- | ------------------------------ |
 | Aplicativo móvel SouGov.br | Avaliar e melhorar a adequação funcional do sistema | Completude, correção e adequação à tarefa | Gestores de produto, analistas de QA e usuários finais | Operação pública em dispositivos móveis, dados observáveis via monitoramento funcional |
-| Descrição Aplicada ao SouGov.br | Aplicativo móvel SouGov.br e seus serviços de backend | Controlar, monitorar e prever falhas de estabilidade e disponibilidade | Maturidade, disponibilidade, recuperabilidade | Usuários | Execução real do aplicativo em dispositivos móveis com dependência de APIs públicas |
+| Aplicativo móvel SouGov.br e seus serviços de backend | Controlar, monitorar e prever falhas de estabilidade e disponibilidade | Maturidade, disponibilidade, recuperabilidade | Usuários | Execução real do aplicativo em dispositivos móveis com dependência de APIs públicas |
 
 #### Metas (Goals) Formalizadas 
 
