@@ -65,7 +65,7 @@ Na metodologia GQM, o passo inicial (Fase 1) é a definição de Metas, o "G" de
 
   A partir do quadro GQM, podemos declarar as metas formais:
 
-GOAL 1: Avaliar e melhorar a adequação funcional do sistema SouGov.br com o propósito de focar na completude, correção e adequação à tarefa, do ponto de vista dos gestores de produto, analistas de QA e usuários finais, no contexto de operação pública em dispositivos móveis, dados observáveis via monitoramento funcional.
+GOAL 1: Medir o nível de Adequação Funcional do aplicativo SouGov.br para identificar gaps de completude, correção e adequação à tarefa nos módulos críticos (ex: Prova de Vida, Contracheque), do ponto de vista dos gestores de produto e usuários finais, no contexto de operação em dispositivos móveis, com o objetivo de priorizar a correção de defeitos e o desenvolvimento de funcionalidades ausentes.
 
 GOAL 2: Controlar, monitorar e prever falhas de estabilidade e disponibilidade do Aplicativo móvel SouGov.br e seus serviços de backend, com foco na maturidade, disponibilidade, recuperabilidade, no ponto de vista dos usuários, no contexto da execução real do aplicativo em dispositivos móveis com dependência de APIs públicas.
 
