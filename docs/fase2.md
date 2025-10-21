@@ -121,11 +121,11 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 
 | Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
 | --------- | ------------- | ------------------- | ----------------- |
-| 200060783 | Ana Beatriz W. Massuh | Refinamento e Revisão final | % |
-| 190085584 | Carlos Eduardo Mendes |  Pesquisa inicial e Setup inicial | % |
-| 231034707 | Giovana Ferreira Santos | Refinamento e Revisão final | % |
-| 231026840 | Laryssa Felix |  Pesquisa e Criação final do gitpages  | % |
-| 202070064 | Matheus do Vale | Pesquisa e Criação final do gitpages | % |
+| 200060783 | Ana Beatriz W. Massuh | ... | % |
+| 190085584 | Carlos Eduardo Mendes |  ... | % |
+| 231034707 | Giovana Ferreira Santos | ... | % |
+| 231026840 | Laryssa Felix |  ...  | % |
+| 202070064 | Matheus do Vale | ... | % |
 
 ---------------------
 
