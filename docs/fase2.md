@@ -111,6 +111,24 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 
 4. Conclusão da Fase: Gerar um relatório consolidado com a performance do SouGov.br em relação à Adequação Funcional e Confiabilidade.
 
+---------------------
+
+## Tabela de Contribuição - Grupo Frans Bilas
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Tabela 4: Contribuições dos Membros do Grupo
+</div>
+
+| Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
+| --------- | ------------- | ------------------- | ----------------- |
+| 200060783 | Ana Beatriz W. Massuh | Refinamento e Revisão final | % |
+| 190085584 | Carlos Eduardo Mendes |  Pesquisa inicial e Setup inicial | % |
+| 231034707 | Giovana Ferreira Santos | Refinamento e Revisão final | % |
+| 231026840 | Laryssa Felix |  Pesquisa e Criação final do gitpages  | % |
+| 202070064 | Matheus do Vale | Pesquisa e Criação final do gitpages | % |
+
+---------------------
+
 | Versão | Data       | Descrição                             | Autor(a) |
 | ------ | ---------- | ------------------------------------- | -------- |
 | 1.0    | 12/10/2025 | Versão inicial da fase 2 | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
