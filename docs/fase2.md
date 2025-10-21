@@ -1,4 +1,4 @@
-# Fase 2 — Especificação da Avaliação (Abordagem GQM)
+# Fase 2 — Especificação da Avaliação (Modelo GQM aplicado ao SouGov.br Mobile)
 
 ## 1. Introdução
 
