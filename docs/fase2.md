@@ -139,6 +139,6 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 | ------ | ---------- | ------------------------------------- | -------- |
 | 1.0    | 12/10/2025 | Versão inicial da fase 2 | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
 | 2.0    | 12/10/2025 | Complementar fase 2 | [Laryssa Felix](https://github.com/felixlaryssa) |
-| 3.0    | 24/10/2025 | Revisão e Alteração após PC2 | [Laryssa Felix](https://github.com/felixlaryssa) |
+| 3.0    | 24/10/2025 | Revisão e Alteração após PC2 | [Giovana Ferreira](https://github.com/gih7915) |
 
 
