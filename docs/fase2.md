@@ -129,7 +129,13 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 
 ---------------------
 
+## Histórico de versão
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Tabela 5: Tabela de Versionamento
+</div>
+
 | Versão | Data       | Descrição                             | Autor(a) |
 | ------ | ---------- | ------------------------------------- | -------- |
 | 1.0    | 12/10/2025 | Versão inicial da fase 2 | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
-| 2.0    | 12/10/2025 | Complementar fase 2 | [Laryssa Felix](https://github.com/felixlaryssa)  |
+| 2.0    | 12/10/2025 | Complementar fase 2 | [Laryssa Felix](https://github.com/felixlaryssa) |
