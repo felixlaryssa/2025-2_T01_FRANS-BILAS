@@ -38,11 +38,11 @@ O modelo **Goal Question Metric (GQM)** define que cada **meta de avaliação (G
 
 | **Elemento**       | **Definição no GQM**                |
 |--------------------|------------------------------------|
-| **Objeto (O que será analisado)** | Processo, produto ou recurso |
+| **Objeto (O que será analisado)** | SouGov Mobile |
 | **Propósito (Por que será analisado)** | Avaliação, controle, melhoria |
 | **Qualidade do foco** | Característica de interesse |
-| **Ponto de vista** | Quem utilizará os resultados |
-| **Ambiente** | Contexto da análise |
+| **Ponto de vista** | Servidores Públicos |
+| **No contexto da** | Disciplina de Qualidade de Software 1 (FCTE - UnB) |
 
 
 
@@ -139,3 +139,6 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 | ------ | ---------- | ------------------------------------- | -------- |
 | 1.0    | 12/10/2025 | Versão inicial da fase 2 | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
 | 2.0    | 12/10/2025 | Complementar fase 2 | [Laryssa Felix](https://github.com/felixlaryssa) |
+| 3.0    | 24/10/2025 | Revisão e Alteração após PC2 | [Laryssa Felix](https://github.com/felixlaryssa) |
+
+
