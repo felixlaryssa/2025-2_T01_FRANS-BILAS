@@ -1,6 +1,6 @@
 # Fase 2 — Especificação da Avaliação (Modelo GQM aplicado ao SouGov.br Mobile)
 
-## 1. Introdução
+## 1. Introdução e Objetivos
 
   Esta fase tem como objetivo principal especificar a avaliação das características **Adequação Funcional** e **Confiabilidade** do aplicativo **SouGov.br**, conforme os critérios definidos na [**fase 1**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/). A partir dessas definições iniciais, são estabelecidas as próximas etapas do processo de medição e análise de qualidade, das quais as três primeiras serão desenvolvidas nesta fase de especificação: 
 .
