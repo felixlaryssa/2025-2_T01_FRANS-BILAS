@@ -81,13 +81,21 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 | Adequação Funcional |	Correção Funcional	| Q2: Os resultados produzidos pelos serviços críticos (e.g., cálculo de contracheque, férias) estão corretos e em conformidade com as regras de negócio? |	M2: Taxa de Inconformidade Funcional (TIF) (Nerros_cálculo​/Ncálculos_auditados​ em %)	| 1. Registros de Chamados de Erro/Bug (Serpro/MGI): Filtrar por "Cálculo Incorreto" ou "Dados Divergentes". 2. Auditoria de Dados (Simulação): Comparação de 50 registros no SIAPE vs. SouGov.br.	| Teste de Caixa Preta e Auditoria |		
 | Adequação Funcional |	Adequação à Tarefa	| Q3: As funções críticas (e.g., Prova de Vida Digital) permitem que os usuários concluam suas tarefas de forma eficiente, sem falhas de usabilidade?	| M3: Taxa de Sucesso na Conclusão de Tarefas Críticas (TSCTC) (Ntarefas_completadas​/Ntentativas_totais​ em %)	| 1. Pesquisas de Satisfação e Comentários (App Stores): Análise de feedback sobre dificuldades de uso. 2. Dados de Telemetria (Acesso restrito - Simular): Taxa de Abandono em Funções Chave (Ex: Prova de Vida). |	Testes de Usabilidade e Análise de Comportamento |
 
-#### 3.2.2. Confiabilidade
+#### 3.2.2. Diagrama GQM - Adequação Funcional
+
+<img width="741" height="311" alt="AdequacaoFuncional_Diagrama" src="https://github.com/user-attachments/assets/30544782-a139-40cd-b11d-c0140fda5561" />
+
+#### 3.2.3. Confiabilidade
 
 | Característica |	Subcaracterística |	Questão (Q)	| Métrica (M)	| Fonte de Dados (Onde buscar)	| Tipo de Análise |
 | -------------- | ------------------ | ----------- | ----------- | ----------------------------- | ---------------- |
 | Confiabilidade	| Maturidade e Disponibilidade	| Q4: Qual a estabilidade e o tempo de operação do sistema (uptime) para os serviços críticos, especialmente em integração?	| M4: Tempo Médio Entre Falhas (TMEF ou MTBF) (Tempo em Horas/Dias) e Disponibilidade Percentual (em %)	| 1. Acordos de Nível de Serviço (SLA) (Documentos MGI/Serpro): Metas de MTBF e Disponibilidade. 2. Logs de Infraestrutura (Serpro): Registros de uptime/downtime dos últimos 6 meses. | 	Monitoramento de Desempenho e Logs |		
 | Confiabilidade |	Tolerância a Falhas e Recuperabilidade	| Q5: Em caso de falha de integração (e.g., SIAPE, Gov.br), o sistema consegue se recuperar e restaurar a operação em tempo hábil?	| M5: Tempo Médio Para Reparo/Recuperação (TMPR ou MTTR) (Tempo em Horas/Minutos)	| 1. Relatórios de Incidentes Críticos (Serpro): Registros de quanto tempo levou para restaurar a funcionalidade após uma falha crítica. 2. Logs de Integração: Análise de rollback e tempo de restauração.	| Análise de Incidentes e Resiliência	|	
 | Confiabilidade |	Frequência de Falhas	| Q6: Qual a frequência de falhas operacionais que impactam diretamente o usuário final nos módulos críticos (e.g., crash do app, erro de servidor)?	| M6: Frequência de Falhas Operacionais (FFO) por Módulo (Nfalhas_operacionais​/Nsessões_usuário​ em % ou Taxa)	| 1. Registros Históricos de Incidentes (Serpro/MGI): Relatórios de Bug e Crash em Produção. 2. Logs de Servidor e Telemetria (Serpro/App Stores): Dados de erros críticos (crashes) reportados.	| Análise Estatística e de Logs de Erro	|	
+
+#### 3.2.4. Diagrama GQM - Confiabilidade
+
+<img width="741" height="311" alt="Confiabilidade_Diagrama" src="https://github.com/user-attachments/assets/18928250-7a8e-4d50-aba5-45a3c541c1ac" />
 
 ### 3.3. Análise e Interpretação dos Resultados
 
