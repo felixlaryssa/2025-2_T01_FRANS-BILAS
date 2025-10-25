@@ -121,6 +121,14 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 
 ---------------------
 
+### Critérios para Julgamento
+
+* **Aceitável:** ≥ 70% das métricas classificadas como "Bom" ou "Excelente". O sistema demonstra robustez e previsibilidade.
+* **Parcialmente aceitável:** Entre 40% e 69% das métricas com nível "Regular" ou superior. O sistema funciona, mas pode apresentar instabilidades pontuais.
+* **Inaceitável:** > 30% das métricas atingindo o nível "Insatisfatório". A estabilidade do sistema é considerada crítica e propensa a falhas.
+  
+---------------------
+
 ## Tabela de Contribuição - Grupo Frans Bilas
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
