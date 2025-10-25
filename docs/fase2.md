@@ -191,10 +191,10 @@ Hipóteses:
 
 | **Nível**        | **Critério de Julgamento** | **Interpretação**                                                                                 |
 | ---------------- | -------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Excelente**    | **TMPR ≤ 1 hora**          | Elevada capacidade de recuperação; falhas solucionadas rapidamente sem afetar o serviço.          |
-| **Bom**          | **1 < TMPR ≤ 3 horas**     | Boa resposta a falhas; pequenos atrasos pontuais na restauração.                                  |
-| **Regular**      | **3 < TMPR ≤ 6 horas**     | Recuperação lenta; impacto moderado nas operações.                                                |
-| **Insuficiente** | **TMPR > 6 horas**         | Recuperação ineficiente; tempo de inatividade prolongado e falhas críticas sem resposta imediata. |
+| **Excelente**    | TMPR ≤ 1 hora         | Elevada capacidade de recuperação; falhas solucionadas rapidamente sem afetar o serviço.          |
+| **Bom**          | 1 < TMPR ≤ 3 horas     | Boa resposta a falhas; pequenos atrasos pontuais na restauração.                                  |
+| **Regular**      | 3 < TMPR ≤ 6 horas     | Recuperação lenta; impacto moderado nas operações.                                                |
+| **Insuficiente** | TMPR > 6 horas         | Recuperação ineficiente; tempo de inatividade prolongado e falhas críticas sem resposta imediata. |
 
 **Subcaracterística 3:** Frequência de Falhas
 
@@ -208,10 +208,10 @@ Hipóteses:
 
 | **Nível**        | **Critério de Julgamento** | **Interpretação**                                                       |
 | ---------------- | -------------------------- | ----------------------------------------------------------------------- |
-| **Excelente**    | **FFO ≤ 2%**               | Sistema altamente confiável; falhas raras e bem controladas.            |
-| **Bom**          | **3% ≤ FFO ≤ 5%**          | Pequena ocorrência de falhas, com impacto mínimo no uso.                |
-| **Regular**      | **6% ≤ FFO ≤ 10%**         | Falhas ocasionais perceptíveis; necessidade de ajustes de estabilidade. |
-| **Insuficiente** | **FFO > 10%**              | Alta taxa de falhas; experiência do usuário comprometida.               |
+| **Excelente**    | FFO ≤ 2%               | Sistema altamente confiável; falhas raras e bem controladas.            |
+| **Bom**          | 3% ≤ FFO ≤ 5%          | Pequena ocorrência de falhas, com impacto mínimo no uso.                |
+| **Regular**      | 6% ≤ FFO ≤ 10%*        | Falhas ocasionais perceptíveis; necessidade de ajustes de estabilidade. |
+| **Insuficiente** | FFO > 10%              | Alta taxa de falhas; experiência do usuário comprometida.               |
 
 ### 3.4 Análise e Interpretação dos Resultados
 
@@ -219,21 +219,21 @@ Após a coleta de dados, a análise se concentrará em correlacionar os resultad
 
 #### 3.4.1. Passos da Análise
 
-1. Visualização: Criação de gráficos e dashboards (e.g., Taxa de Inconformidade Funcional por Objeto, MTBF por Mês).
+ Visualização: Criação de gráficos e dashboards (e.g., Taxa de Inconformidade Funcional por Objeto, MTBF por Mês).
 
-2. Comparação:
+ Comparação:
 
-Baseline: Comparar os resultados das métricas com os objetivos de qualidade preestabelecidos (e.g., meta de TIF ≤ 2%, meta de Disponibilidade ≥ 99.5%).
+- Baseline: Comparar os resultados das métricas com os objetivos de qualidade preestabelecidos (e.g., meta de TIF ≤ 2%, meta de Disponibilidade ≥ 99.5%).
 
-Tendência: Analisar a evolução dos resultados ao longo do tempo (últimos 6 meses) para identificar tendências de melhoria ou degradação.
+- Tendência: Analisar a evolução dos resultados ao longo do tempo (últimos 6 meses) para identificar tendências de melhoria ou degradação.
 
-3. Identificação de Causas Raiz: Para métricas que não atingirem as metas:
+ Identificação de Causas Raiz: Para métricas que não atingirem as metas:
 
-Analisar os logs de falha (M4, M5, M6) para identificar os módulos e as integrações mais instáveis.
+- Analisar os logs de falha (M4, M5, M6) para identificar os módulos e as integrações mais instáveis.
 
-Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) para entender o impacto no usuário.
+- Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) para entender o impacto no usuário.
 
-4. Conclusão da Fase: Gerar um relatório consolidado com a performance do SouGov.br em relação à Adequação Funcional e Confiabilidade.
+ Conclusão da Fase: Gerar um relatório consolidado com a performance do SouGov.br em relação à Adequação Funcional e Confiabilidade.
 
 
 ## Tabela de Contribuição - Grupo Frans Bilas
@@ -244,11 +244,11 @@ Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) p
 
 | Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
 | --------- | ------------- | ------------------- | ----------------- |
-| 200060783 | Ana Beatriz W. Massuh | Pesquisa e documentação | % |
-| 190085584 | Carlos Eduardo Mendes |  Pesquisa | % |
-| 231034707 | Giovana Ferreira Santos | Pesquisa e documentação | % |
-| 231026840 | Laryssa Felix |  Pesquisa e documentação  | % |
-| 202070064 | Matheus do Vale | Pesquisa | % |
+| 200060783 | Ana Beatriz W. Massuh | Pesquisa e documentação | 20% |
+| 190085584 | Carlos Eduardo Mendes |  Pesquisa | 20% |
+| 231034707 | Giovana Ferreira Santos | Pesquisa e documentação | 20% |
+| 231026840 | Laryssa Felix |  Pesquisa e documentação  | 20% |
+| 202070064 | Matheus do Vale | Pesquisa | 20% |
 
 ---------------------
 
