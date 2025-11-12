@@ -66,17 +66,17 @@ As métricas a seguir derivam diretamente da [Fase 2](https://felixlaryssa.githu
 | **M5 — Tempo Médio para Reparo/Recuperação (TMPR)**            | Mede o tempo necessário para o sistema se recuperar de falhas críticas relatadas por usuários.            | Serão analisados **20 comentários recentes** de usuários na App Store e Play Store que mencionem falhas funcionais (ex: “não abre”, “erro no login”, “não carrega”). Para cada relato, será verificado se o problema foi **corrigido em versões posteriores**, com base nas **notas de atualização oficiais**. O tempo médio entre o relato e a correção observada será estimado como o TMPR.                                                                                                                              | Comentários de usuários nas lojas de aplicativos e notas de atualização do SouGov.                                            | Avaliação trimestral, considerando o histórico de versões lançadas. | ≤ 1h Excelente; 1–3h Bom; 3–6h Regular; > 6h Insuficiente.       |
 | **M6 — Frequência de Falhas Operacionais (FFO)**               | Mede a incidência de falhas percebidas pelos usuários e observadas durante o uso prático do aplicativo.   | A coleta será baseada em **duas fontes**: (1) análise de comentários e avaliações nas lojas de aplicativos, contabilizando menções de falhas (“fecha sozinho”, “erro”, “não abre”); e (2) **observação direta** durante as sessões de teste realizadas para a métrica M4. A proporção de interações que resultaram em falhas será calculada e convertida em percentual de falhas operacionais.                                                                                                                             | Comentários nas lojas de aplicativos e registros das sessões de uso simuladas.                                                | Coleta mensal contínua  | ≤ 2% Excelente; 3–5% Bom; 6–10% Regular; > 10% Insuficiente.     |
 
-# 5. Especificação dos Recursos
+## 5. Especificação dos Recursos
 
 Os seguintes recursos são necessários para a execução completa e controlada do Plano de Avaliação:
 
-## 4.1 Recursos Humanos
+### 5.1 Recursos Humanos
 
 | Membro          | Responsabilidades                                     |
 |-----------------|-------------------------------------------------------|
 | Avaliadores (Equipe) | Execução dos testes, coleta e registro de dados. |
 
-## 4.2 Materiais de Apoio e Ferramentas Técnicas
+### 5.2 Materiais de Apoio e Ferramentas Técnicas
 
 | Recurso                  | Função na Avaliação                                                |
 |---------------------------|-------------------------------------------------------------------|
