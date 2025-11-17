@@ -25,8 +25,7 @@ Esta fase garante que:
 
 ## 2. Objetivos da Avaliação
 
-1. Avaliar o grau de correspondência entre as funcionalidades implementadas e as necessidades dos usuários ([Adequação Funcional](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)
-   ).
+1. Avaliar o grau de correspondência entre as funcionalidades implementadas e as necessidades dos usuários ([Adequação Funcional](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)) .
 
 2. Verificar a confiabilidade operacional do aplicativo, considerando falhas relatadas, estabilidade e comportamento sob condições normais de uso ([Confiabilidade](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)).
 
@@ -34,9 +33,9 @@ Esta fase garante que:
 
 A avaliação será conduzida de acordo com as cinco etapas do processo de avaliação da ISO/IEC 25040, que servem como referência metodológica:
 
-- Estabelecimento dos requisitos de avaliação (já realizado na [Fase 1](<(https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/)>));
+- Estabelecimento dos requisitos de avaliação (já realizado na [Fase 1](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/);
 
-- Especificação da avaliação (modelo GQM definido na [Fase 2](<(https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/)>));
+- Especificação da avaliação (modelo GQM definido na [Fase 2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/);
 
 - Projetar a avaliação (fase atual);
 
@@ -44,7 +43,7 @@ A avaliação será conduzida de acordo com as cinco etapas do processo de avali
 
 - Concluir a avaliação (interpretação e julgamento dos resultados).
 
-Nesta fase, são detalhados os procedimentos de coleta e análise para cada métrica GQM ([M1 a M6](<(https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/#32-definicao-das-questoes-e-metricas-abordagem-gqm-q-e-m)>)), bem como a estrutura operacional necessária para realizar a avaliação com consistência.
+Nesta fase, são detalhados os procedimentos de coleta e análise para cada métrica GQM ([M1 a M6](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/#32-definicao-das-questoes-e-metricas-abordagem-gqm-q-e-m), bem como a estrutura operacional necessária para realizar a avaliação com consistência.
 
 ## 4. Planejamento das Métricas e Métodos de Coleta
 
@@ -55,7 +54,7 @@ As métricas a seguir derivam diretamente da [Fase 2](https://felixlaryssa.githu
 | **Métrica**                                                                                                                                               | **Descrição / Finalidade**                                                                         | **Método de Coleta**                                                                                                     | **Fonte de Dados**                                                                                                                                                                                                                                            | **Frequência / Amostragem**             | **Critério de Julgamento (da Fase 2)**                           |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------- |
 | **[M1 — Cobertura de Requisitos Críticos por Módulo](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/#321-adequacao-funcional)**              | Mede a completude funcional, verificando se os módulos do SouGov atendem aos requisitos esperados. | Análise de rastreabilidade entre requisitos documentados e funcionalidades implementadas.                                | Documentação, lista de requisitos, base de chamados de suporte (“Funcionalidade Ausente”).                                                                                                                                                                    | Análise pontual sobre versão 5.573.     | ≥ 95% Excelente; 80–94% Bom; 60–79% Regular; < 60% Insuficiente. |
-| **[M2 — Taxa de Inconformidade Funcional (TIF)](<(https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/#321-adequacao-funcional)>)**               | Mede a correção funcional dos resultados (ex.: cálculo de contracheque, férias).                   | Análises de comentários de usuários relatando divergências (“meu valor no SouGov está diferente do Portal do Servidor”). | registros de chamados (“Cálculo Incorreto”) Comentários e avaliações nas App Stores. A partir de feedback de usuário fazer comparativos entre dados do SOUGOV e relatórios públicos (como o [Portal da Transparência](https://portaldatransparencia.gov.br/)) | Avaliação sobre amostra representativa. | ≤ 5% Excelente; 6–15% Bom; 16–25% Regular; > 25% Insuficiente.   |
+| **[M2 — Taxa de Inconformidade Funcional (TIF)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/#321-adequacao-funcional)**               | Mede a correção funcional dos resultados (ex.: cálculo de contracheque, férias).                   | Análises de comentários de usuários relatando divergências (“meu valor no SouGov está diferente do Portal do Servidor”). | registros de chamados (“Cálculo Incorreto”) Comentários e avaliações nas App Stores. A partir de feedback de usuário fazer comparativos entre dados do SOUGOV e relatórios públicos (como o [Portal da Transparência](https://portaldatransparencia.gov.br/) ) | Avaliação sobre amostra representativa. | ≤ 5% Excelente; 6–15% Bom; 16–25% Regular; > 25% Insuficiente.   |
 | **[M3 — Taxa de Sucesso na Conclusão de Tarefas Críticas (TSCTC)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/#321-adequacao-funcional)** | Mede se os usuários conseguem completar tarefas essenciais (ex.: Prova de Vida Digital).           | Análise de comportamento do usuário + coleta de feedbacks.                                                               | Comentários e avaliações nas App Stores, telemetria de eventos de uso.                                                                                                                                                                                        | Coleta contínua durante alguns dias.    | ≥ 90% Excelente; 70–89% Bom; 50–69% Regular; < 50% Insuficiente. |
 
 ### **3.2. Confiabilidade**
@@ -138,3 +137,4 @@ Esses registros servirão como evidência para auditoria e validação dos resul
 | ------ | ---------- | --------------------------------------------------- | ------------------------------------------------------------------ |
 | 1.0    | 10/11/2025 | Conteúdo da fase 3                                  | [Laryssa Felix](https://github.com/felixlaryssa)                   |
 | 2.0    | 16/11/2025 | Adição de análise inicial das ferramentas de coleta | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita) |
+| 2.1    | 16/11/2025 | Ajuste para deploy pages | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh) |
