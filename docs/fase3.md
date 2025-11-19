@@ -133,7 +133,7 @@ Para garantir a rastreabilidade e a reprodutibilidade dos resultados, cada métr
 
 - Classificação segundo o critério de julgamento definido na [Fase 2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/).
 
-Esses registros servirão como evidência para auditoria e validação dos resultados.
+Esses registros servirão como evidência para validação dos resultados.
 
 ## Bibliografia
 
