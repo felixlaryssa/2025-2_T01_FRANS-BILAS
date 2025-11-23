@@ -15,13 +15,18 @@
 ## 1. Objetivo
 O objetivo desta fase é **definir os requisitos de avaliação de qualidade** do sistema **SouGov.br**, com ênfase nas características de **Adequação Funcional** e **Confiabilidade**. 
 
-Este documento apresenta o escopo da avaliação, identifica as partes interessadas e descreve o modelo de qualidade que orientará as próximas etapas da análise.
+Este documento apresenta o escopo da avaliação, identifica as partes interessadas e descreve o modelo de qualidade que orientará as próximas etapas da análisee, utilizando o diagnóstico automatizado de reviews como ferramenta de mensuração.
 
 
 ## 2. Requisitante e Partes Interessadas
+A avaliação envolve os seguintes stakeholders, dada a natureza pública e crítica do 
+software: 
+
 - **Requisitante/Gestor:** Ministério da Gestão e Inovação em Serviços Públicos (MGI).  
 - **Fornecedor/Desenvolvedor:** Serviço Federal de Processamento de Dados (Serpro).  
-- **Usuários finais:** Servidores públicos federais ativos, aposentados, pensionistas e anistiados.  
+- **Usuários finais:** Servidores públicos federais ativos, aposentados, pensionistas e anistiados.
+- **Avaliadores: Grupo Frans Bilas, responsável por conduzir a análise e interpretar 
+os resultados gerados pela ferramenta de PLN.   
 - **Operadores:** Órgãos de gestão de pessoas da Administração Pública Federal.  
 - **Outras partes interessadas:** Órgãos de controle (CGU, TCU), gestores públicos e cidadãos que utilizam os serviços indiretos da plataforma.  
 
@@ -95,7 +100,8 @@ Esta estrutura hierárquica demonstra como o sistema opera de forma integrada, c
 A avaliação tem como propósito verificar se o software atende às necessidades de seus usuários em termos de **adequação funcional** e **confiabilidade**, considerando sua relevância para a gestão pública.  
 
 Os resultados da avaliação visam:  
-1. Identificar lacunas funcionais e riscos associados à confiabilidade;  
+1. Identificar lacunas funcionais e riscos associados à confiabilidade, baseado na 
+percepção do usuário final (reviews);  
 2. Apoiar o planejamento de evolução e manutenção do sistema;  
 3. Contribuir para decisões de melhoria contínua;  
 4. Sustentar a transparência e a confiança nos serviços digitais oferecidos pelo governo.  
@@ -103,7 +109,13 @@ Os resultados da avaliação visam:
 
 ## 7. Modelo de Qualidade
 
+O modelo de qualidade prioriza duas características críticas da ISO/IEC 25
+
 ### 7.1 Adequação Funcional
+
+Esta característica foca na capacidade do produto de software de fornecer funções que 
+satisfaçam as necessidades.
+
 - **Completude funcional:** verificação da presença de todas as funções necessárias;  
 - **Correção funcional:** avaliação da precisão dos resultados produzidos;  
 - **Adequação à tarefa:** análise da contribuição das funções para o alcance dos objetivos do usuário.  
@@ -122,7 +134,14 @@ Os resultados da avaliação visam:
 
 ## 9. Escopo, Profundidade e Objetos de Avaliação
 
+O escopo da avaliação é detalhado por perfil de usuário e objetos técnicos de mensuração 
+pela ferramenta de análise de reviews.
+
 ### 9.1 Escopo de Usuários
+
+A análise da ferramenta deve focar na correlação do feedback de texto com os serviços 
+críticos de cada perfil: 
+
 - **Servidores ativos:** contracheque, férias, licenças, consignações, gestão de dependentes, oportunidades internas, prova de vida, posse digital e carteira funcional.
 
 - **Aposentados:** manutenção de benefícios, prova de vida digital, consulta de contracheques, atualização cadastral e acesso a documentos funcionais digitais.
@@ -134,9 +153,10 @@ Os resultados da avaliação visam:
 - **Anistiados:** gestão dos benefícios, histórico funcional, consulta a pagamentos e atualização cadastral.
 
 ### 9.2 Escopo Técnico
-- **Aplicativo móvel (Android/iOS).**
 
-- **Integrações com sistemas estruturantes** da Administração Pública (SIAPE, Gov.br, Prova de Vida Digital, serviços do Serpro e demais sistemas de apoio).
+Escopo Técnico: Aplicativo móvel (Android) e Integrações com sistemas 
+estruturantes da Administração Pública (SIAPE, Gov.br, Prova de Vida Digital, 
+serviços do Serpro e demais sistemas de apoio). 
 
 ### 9.3 Profundidade da Avaliação
 - **Adequação Funcional:** análise de todas as funções críticas relacionadas a cada perfil de usuário.
@@ -144,6 +164,9 @@ Os resultados da avaliação visam:
 - **Confiabilidade:** verificação da estabilidade, consistência e recuperação do aplicativo em diferentes cenários de uso.
 
 ### 9.4 Objetos de Avaliação
+
+Os reviews devem ser correlacionados primariamente aos seguintes serviços: 
+
 - **Servidores Ativos:** contracheque, férias, licenças, consignações, posse digital, carteira funcional e solicitações de benefícios.
 
 - **Aposentados:** prova de vida, contracheque, atualização cadastral e histórico funcional.
@@ -157,6 +180,8 @@ Os resultados da avaliação visam:
 
 ## 10. Relação com os [Objetivos de Desenvolvimento Sustentável (ODS)](https://brasil.un.org/pt-br/sdgs)
 
+A avaliação se alinha aos seguintes ODS:
+
 - **ODS 16 — Paz, Justiça e Instituições Eficazes**  
   O SouGov.br contribui para a **transparência**, o **fortalecimento institucional** e a **eficiência** da gestão pública ao digitalizar processos administrativos.  
 
@@ -166,7 +191,9 @@ Os resultados da avaliação visam:
 **Justificativa:** A plataforma representa um avanço na modernização da infraestrutura digital da administração pública, aumentando a eficiência institucional e fortalecendo a confiança social nos serviços governamentais.  
 
 ## 11. Conclusão
-Esta página da dcumentação apresenta a **Fase 1 da avaliação de qualidade do SouGov.br**, estabelecendo o escopo, as partes interessadas e o modelo de qualidade com foco em **adequação funcional** e **confiabilidade**.  
+Esta documentação apresenta a Fase 1 da avaliação de qualidade do SouGov.br, 
+estabelecendo o escopo, as partes interessadas e o modelo de qualidade com foco em 
+Adequação Funcional e Confiabilidade, ancorado na metodologia de análise de reviews.  
 
 As etapas subsequentes consistirão em:  
 - Definir métricas específicas de avaliação;  
