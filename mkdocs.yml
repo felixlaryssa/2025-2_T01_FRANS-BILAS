@@ -37,7 +37,9 @@ nav:
   - Fase 1 - Processo de Avaliação: fase1.md
   - Fase 2 - Epecificação da avaliação (Abordagem GQM): fase2.md
   - Fase 3 - Projetar a Avaliação: fase3.md
+  - Ferramenta de Análise: funcionamentodaferramenta.md
   - Fase 4 - Análise dos dados coletados: fase4.md
+
 
 markdown_extensions:
   - admonition
