@@ -13,7 +13,7 @@
 
 4. **Coletar Dados (Mensuração – Fase 3)** – Realizar a medição prática dos indicadores definidos.
 
-5. **Analisar e Interpretar (Conclusões – Fase 3)** – Interpretar os resultados obtidos e utilizá-los como base para decisões de melhoria contínua.
+5. **Analisar e Interpretar (Conclusões – Fase 4)** – Interpretar os resultados obtidos e utilizá-los como base para decisões de melhoria contínua.
 
   O foco da medição está voltado para os objetos de avaliação (módulos e serviços críticos) e para os escopos de usuários definidos no contexto do aplicativo SouGov.br (versão mobile).
 
