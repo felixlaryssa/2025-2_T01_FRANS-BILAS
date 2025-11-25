@@ -2,9 +2,31 @@
 
 ## 1 - Introdução
 
-A fase 4 detalha, de forma completa e rastreável, como foi feita a coleta de dados para as características de qualidade selecionadas: **[Adequação Funcional](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)** e **[Confiabilidade](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)**, a coleta foi realizada utilizando ferramenta própria, explicada na [Fase 3](/docs/fase3.md) sessão 5.2.2, foram criados gráficos, dashboards, coletados os termos mais utilizados de forma positiva e de forma negativa, bem como a distribuição de estrelas na loja de aplicativos do google e uma análise de sentimentos em cima dos dados coletados pela ferramenta. Para esta análise, irão ser processados um total de 3361 reviews do aplicativo SouGov.br, abrangendo o período de 01/01/2025 a 17/11/2025.
+A **Fase 4** detalha, de forma completa e rastreável, como foi realizada a coleta de dados para as características de qualidade selecionadas:  
 
-![Figura 1 - Resumo dos resultados da ferramenta](../assets/images/resumo_coleta.png)
+- [**Adequação Funcional**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)  
+- [**Confiabilidade**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)  
+
+A coleta de dados foi feita utilizando uma ferramenta própria, explicada na [Fase 3](/docs/fase3.md), sessão 5.2.2. Durante a análise, foram realizados os seguintes procedimentos:
+
+- Criação de **gráficos** e **dashboards**.  
+- Identificação dos **termos mais utilizados**, tanto de forma positiva quanto negativa.  
+- Avaliação da **distribuição de estrelas** na loja de aplicativos do Google.  
+- Análise de **sentimentos** aplicada aos dados coletados pela ferramenta.  
+
+Para esta análise, foram processados **3.361 reviews** do aplicativo **SouGov.br**, abrangendo o período de **01/01/2025 a 17/11/2025**.
+
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 1: Resumo dos resultados da ferramenta
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/resumo_coleta.png" alt="Resumo Coleta" style="max-width: 100%; height: auto;">
+</div>
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 ## 2 - Análise dos dados coletados para a característica Adequação Funcional
 
@@ -14,7 +36,18 @@ Essa sessão dedica-se a discutir sobre o que os dados coletados para as subcara
 
 A ferramenta classificou os N-Grams de reviews Neutros(3) e Negativos(1 e 2), para fazer a análise dessa métricas precisamos encontrar termos que se assemelhem a "falta", "não tem" e "precisava", e ao olhar a tabela gerada:
 
-![Figura 2 - N-Grams dos reviews neutros e negativos](../assets/images/ngrams_neutro_negativo.png)
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 2: N-Grams dos reviews neutros e negativos
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/ngrams_neutro_negativo.png" alt="ngrams_neutro_negativo" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 Das frases presentes na figura 2, possuímos "não funcionando" e "não tenho" como representantes para essa métrica, o critério de julgamento é em porcentagem, sendo elas:
 
@@ -34,11 +67,33 @@ Fazendo o cálculo, chegamos a mais ou menos 6%, então a métrica está classif
 
 Essa métrica busca medir a correção funcional dos resultados, para isso precisamos identificar os N-Grams que podem ser relacionados a uma incorreção, utilizando do mesmo gráfico da figura 2 :
 
-![Figura 2 - N-Grams dos reviews neutros e negativos](../assets/images/ngrams_neutro_negativo.png)
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 2: N-Grams dos reviews neutros e negativos
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/ngrams_neutro_negativo.png" alt="ngrams_neutro_negativo" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 Ao analisar os N-Grams, encontramos duas que podem se enquadrar aqui, são elas "prova vida" e "reconhecimento facial", pois ter esses termos como amplamente citados pode indicar que existe algo de errado na execução do fluxo dessas funcionalidades. Precisamos então definir como enquadrar os resultados do cálculo desta métrica, que será feita pegando o valor estimado dos dois termos e dividindo pela quantidade de avaliações negativas que o aplicativo recebeu durante o período que as informações foram coletadas.
 
-![Figura 3 - Nota das avaliações na App Store do Android](../assets/images/grafico_avaliacoes.png)
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 3: Nota das avaliações na App Store do Android
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/grafico_avaliacoes.png" alt="grafico_avaliacoes" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 Critério de Julgamento:
 Excelente - menor ou igual a 5%
@@ -55,7 +110,18 @@ Fazendo o cálculo(120/399), encontramos o valor de 0.30, correspondente a 30%, 
 
 Essa métrica mede a taxa de sucesso percebida pelo usuário no feedback em relação a tarefas crítcas, fazendo a Análise em cima dos N-Grams de Fricção, utilizando do mesmo gráfico da figura 2:
 
-![Figura 2 - N-Grams dos reviews neutros e negativos](../assets/images/ngrams_neutro_negativo.png)
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 4: Nota das avaliações na App Store do Android
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/ngrams_neutro_negativo.png" alt="grafico_avaliacoes" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 Ao checarmos o gráfico por referências a tarefas críticas, encontramos uma série delas: "não funciona", "não abre", "não consigo acessar" e "não entra". Todos eles tem haver com a tarefa crítica de conseguir acessar o aplicativo, essencial para realizar toda e qualquer outra tarefa que dependa do SouGov.br. Para determinar como classificar o julgamento da métrica, utilizaremos a seguinte distribuição:
 
@@ -78,7 +144,18 @@ Essa sessão dedica-se a discutir o que os dados coletados para as subcaracterí
 
 Essa métrica mede a estabilidade do sistema e interrupções perceptíveis, utilizando do Mapeamento de Qualidade (PLN) em relação a termos como "Travamentos", "Lentidão" e "Instabilidade", utilizando como cálculo a frequência de menções em relação ao total de reviews(menções/reviews).
 
-![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 4: Nota das avaliações na App Store do Android
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/mapa_termos.png" alt="grafico_avaliacoes" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 Os valores definidos para os Critérios de Julgamento são:
 
@@ -96,7 +173,17 @@ Desta forma, essa métrica é classificada como Bom.
 
 Essa métrica tem como objetivo mensurar o tempo necessário para o sistema se recuperar de uma falha crítica, de forma que precisamos comparar os relatos de falha crítica com as notas oficiais de atualização, ao checar a página oficial do souGov.br na App Store, a última atualização só cita ter melhorado o controle de uso da câmera, mas não cita ter arrumado outros problemas que apareceram nos N-Grams ou nos relatos de falha crítica, portanto, para essa métrica utilizaremos a estimativa de N-Grams negativos referentes aos termos e aos reviews críticos e dividir pelo total de avaliações positivas recebidas pela ferramenta
 
-![Figura 3 - Nota das avaliações na App Store do Android](../assets/images/grafico_avaliacoes.png)
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 5: Nota das avaliações na App Store do Android
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/grafico_avaliacoes.png" alt="grafico_avaliacoes" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 ![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
 ![Figura 5 - Mapeamento dos reviews críticos](../assets/images/reviews_criticos.png)
 
@@ -117,9 +204,9 @@ Desta forma, definimos que pelos Critérios de Julgamento, essa métrica se clas
 
 Essa métrica mede a incidência de falhas operacionais que impactam diretamente o usuário final(como crash e erro de servidor), seu cálculo é feito a partir do Mapeamento de Qualidade (PLN) em "Bugs/Erros" e a contagem de menções críticas no total de reviews.
 
-![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
+<!-- <img src="../assets/images/mapa_termos.png" alt="Mapa Termos" style="max-width: 80%; height: auto;">
 
-![Figura 5 - Mapeamento dos reviews críticos](../assets/images/reviews_criticos.png)
+<img src="../assets/images/reviews_criticos.png" alt="Reviews_criticos" style="max-width: 80%; height: auto;"> -->
 
 Os valores determinados para os Critérios de Julgamento dessa métrica são:
 Excelente - menor ou igual a 2%
@@ -149,3 +236,4 @@ Para finalizar, a equipe recomenda que no próximo ciclo de QA da aplicação os
 | 1.1    | 19/11/2025  | Adição de etapas iniciais extras a fase 4                               | [Giovana Ferreira](https://github.com/gih7915)                      |
 | 2.0    | 22/11/2025  | Versão intermediária da interpretação dos dados da fase 4(pendência m5) | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
 | 3.0    | 23/11/2025  | Versão final da interpretação dos dados da fase 4(pendente revisão)     | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
+| 4.0    | 24/11/2025 | Ajusta imagens, descrição e fonte | [Laryssa Felix](https://github.com/felixlaryssa)  |
