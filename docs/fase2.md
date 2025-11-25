@@ -83,7 +83,9 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 
 #### 3.2.2. Diagrama GQM - Adequação Funcional
 
-<img width="741" height="311" alt="AdequacaoFuncional_Diagrama" src="https://github.com/felixlaryssa/2025-2_T01_FRANS-BILAS/blob/main/docs/assets/images/G1.png" />
+<div style="text-align: center;">
+  <img src="../assets/images/G1.pn" alt="Diagrama Aqueção Funcional" style="max-width: 100%; height: auto;">
+</div>
 
 #### 3.2.3. Confiabilidade
 
@@ -96,7 +98,9 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 
 #### 3.2.4. Diagrama GQM - Confiabilidade
 
-<img width="741" height="311" alt="Confiabilidade_Diagrama" src="https://github.com/felixlaryssa/2025-2_T01_FRANS-BILAS/blob/main/docs/assets/images/G2.png" />
+<div style="text-align: center;">
+  <img src="../assets/images/G2.pn" alt="Diagrama Confiabilidade" style="max-width: 100%; height: auto;">
+</div>
 
 ### 3.3 Análise e Interpretação dos Resultados
 
