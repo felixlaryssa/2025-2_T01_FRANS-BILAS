@@ -30,7 +30,7 @@ Para esta análise, foram processados **3.361 reviews** do aplicativo **SouGov.b
 
 ## 2 - Análise dos dados coletados para a característica Adequação Funcional
 
-Essa sessão dedica-se a discutir sobre o que os dados coletados para as subcaracterísticas de Adequação Funcional no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](/docs/fase2.md) [3](/docs/fase3.md), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
+Essa sessão dedica-se a discutir sobre o que os dados coletados para as subcaracterísticas de Adequação Funcional no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
 
 ### 2.1 - Frequência de Lacunas Funcionais (FLF)
 
@@ -138,7 +138,7 @@ Desta forma, a métrica fica classificada como Bom.
 
 ## 3 - Análise dos dados coletados para a característica de Confiabilidade
 
-Essa sessão dedica-se a discutir o que os dados coletados para as subcaracterísticas de Confiabilidade no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](../fase2.md) e [3](../fase2.md), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
+Essa sessão dedica-se a discutir o que os dados coletados para as subcaracterísticas de Confiabilidade no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) e [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
 
 ### 3.1 - Frequência de Instabilidade Operacional (FIO)
 
