@@ -84,7 +84,7 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 #### 3.2.2. Diagrama GQM - Adequação Funcional
 
 <div style="text-align: center;">
-  <img src="../assets/images/G1.pn" alt="Diagrama Aqueção Funcional" style="max-width: 100%; height: auto;">
+  <img src="../assets/images/G1.png" alt="Diagrama Aqueção Funcional" style="max-width: 100%; height: auto;">
 </div>
 
 #### 3.2.3. Confiabilidade
@@ -99,7 +99,7 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 #### 3.2.4. Diagrama GQM - Confiabilidade
 
 <div style="text-align: center;">
-  <img src="../assets/images/G2.pn" alt="Diagrama Confiabilidade" style="max-width: 100%; height: auto;">
+  <img src="../assets/images/G2.png" alt="Diagrama Confiabilidade" style="max-width: 100%; height: auto;">
 </div>
 
 ### 3.3 Análise e Interpretação dos Resultados
