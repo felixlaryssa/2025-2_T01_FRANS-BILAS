@@ -113,7 +113,7 @@ Análise de Sentimento e Qualidade do aplicativo SouGov.br, focando nos dados de
 ### 2.2 Sentimento Global (PLN)
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 3: Análise de Sentimento Global (PLN)
+  Imagem 4: Análise de Sentimento Global (PLN)
 </div>
 
 <div style="text-align: center;">
@@ -130,17 +130,27 @@ Análise de Sentimento e Qualidade do aplicativo SouGov.br, focando nos dados de
     - **Com 68.1% de reviews positivos**(4-5 estrelas), 
     - **22% de avaliações negativas**(1-2 estrelas) 
     - **A taxa de reviews neutros (9.8%)**(3 estrelas) 
+
 ## 3 - Análise dos dados coletados para a característica Adequação Funcional
 
-Essa sessão dedica-se a discutir sobre o que os dados coletados para as subcaracterísticas de Adequação Funcional no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
+Esta seção tem como objetivo analisar os dados coletados referentes às subcaracterísticas de [Adequação Funcional](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#71-adequacao-funcional), no contexto da qualidade do sistema. Serão avaliadas as [métricas](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#41-adequacao-funcional) definidas para validação nas fases: [Fase 2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/), [Fase 3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), destacando:
 
-### 2.1 - Frequência de Lacunas Funcionais (FLF)
+- Pontos em que houve falhas;
 
-A ferramenta classificou os N-Grams de reviews Neutros(3) e Negativos(1 e 2), para fazer a análise dessa métricas precisamos encontrar termos que se assemelhem a "falta", "não tem" e "precisava", e ao olhar a tabela gerada:
+- Pontos em que se obteve sucesso;
 
+- Pontos com resultado neutro.
 
+Além disso, serão apresentados os dados coletados pela ferramenta, incluindo: fotos dos gráficos e dashboards gerados e os termos mais utilizados pelos usuários.
+
+### 3.1 - M1 Frequência de Lacunas Funcionais (FLF)
+
+A ferramenta classificou os N-Grams das avaliações **neutras** (nota 3) e **negativas** (notas 1 e 2).  
+Para analisar essas métricas, é necessário identificar termos que expressem carência ou insatisfação, como *“falta”*, *“não tem”* e *“precisava”*. A M1 – Frequência de Lacunas Funcionais (FLF) é uma métrica de adequação funcional que avalia a frequência com que funcionalidades esperadas estão ausentes ou incompletas em um sistema.
+
+Ao observar a tabela gerada, podemos verificar esses padrões:
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 2: N-Grams dos reviews neutros e negativos
+  Imagem 5: N-Grams dos reviews neutros e negativos
 </div>
 
 <div style="text-align: center;">
@@ -151,27 +161,43 @@ A ferramenta classificou os N-Grams de reviews Neutros(3) e Negativos(1 e 2), pa
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
-Das frases presentes na figura 2, possuímos "não funcionando" e "não tenho" como representantes para essa métrica, o critério de julgamento é em porcentagem, sendo elas:
+Das frases presentes na **Figura 5**, identificamos os N-Grams *“não funcionando”* e *“não tenho”* como representativos desta métrica.  
 
-Excelente : menor ou igual a 5%
-Bom: entre 6% a 15%
-Regular: de 16% a 25%
-Insuficiente: mais que 25%
+??? "O **critério de avaliação da Frequência de Lacunas Funcionais (FLF)** é baseado em porcentagem:"  
 
-Para achar a porcentagem, precisamos dividir o número de ocorrências em conjunto dos dois N-Grams que identificamos para a métrica e dividir pelo total de citações, como o gráfico não trouxe o valor exato, precisaremos fazer uma estimativa:
+    - **Excelente (0% a 5%)**  
+      Indica que o sistema possui muito poucas ou quase nenhuma lacuna funcional. A maioria das funcionalidades esperadas está presente e funcionando corretamente. O impacto na experiência do usuário ou na operação do sistema é mínimo ou nulo.
+    - **Bom (6% a 15%)**  
+      Significa que existem algumas lacunas funcionais, mas elas são relativamente poucas. O sistema ainda atende bem aos objetivos, embora algumas funcionalidades esperadas possam estar ausentes ou incompletas. O impacto é perceptível, mas não crítico.
+    - **Regular (16% a 25%)**  
+      Indica que há uma quantidade significativa de lacunas funcionais. Um número considerável de funcionalidades esperadas está ausente ou incompleto, o que pode afetar a eficiência do usuário e comprometer parte das operações do sistema.
+    - **Insuficiente (> 25%)**  
+      Mostra que mais de um quarto das funcionalidades esperadas estão faltando ou incompletas. O sistema apresenta sérias deficiências funcionais, comprometendo sua utilidade e dificultando o cumprimento dos objetivos para os quais foi projetado.
 
-Quantidade total de N-Grams(estimativa): aproximadamente 460
-Quantidade de N-Grams para a métrica(estimativa): aproximadamente 30
+Para calcular a porcentagem, somamos o número de ocorrências dos dois N-Grams identificados e dividimos pelo total de citações. Como o gráfico não apresenta valores exatos, utilizamos uma estimativa:  
 
-Fazendo o cálculo, chegamos a mais ou menos 6%, então a métrica está classificada como Bom, considerando que a margem de erro deve estar perto de 3% para mais ou para menos.
+- **Quantidade total de N-Grams (estimativa)**: ~460  
+- **Quantidade de N-Grams para a métrica (estimativa)**: ~30  
 
-### 2.2 - Proporção de Relatos de Incorreção (PRI)
 
-Essa métrica busca medir a correção funcional dos resultados, para isso precisamos identificar os N-Grams que podem ser relacionados a uma incorreção, utilizando do mesmo gráfico da figura 2 :
+#### Resultado da Análise :
+O cálculo aproximado resulta em **6,52%**, classificando a métrica como **Bom**, considerando uma margem de erro estimada de ±3%. Significa que existem algumas lacunas funcionais, mas elas são relativamente poucas. O sistema ainda atende bem aos objetivos, embora algumas funcionalidades esperadas possam estar ausentes ou incompletas. O impacto é perceptível, mas não crítico.
+
+
+??? info "Significado de N-Grams"
+    N-Grams: Identifica as frases e termos mais frequentes (N-grams) em comentários
+    positivos e negativos, após a remoção de espaço vazio e frases irrelevantes. Isso
+    destaca o valor central percebido e os principais pontos de fricção.
+
+### 3.2 - Proporção de Relatos de Incorreção (PRI)
+
+A **Proporção de Relatos de Incorreção (PRI)** é uma métrica que busca avaliar a **correção funcional** dos resultados do aplicativo. Para isso, analisamos os **N-Grams** presentes nos comentários neutros e negativos dos usuários, buscando termos que indiquem possíveis problemas na execução das funcionalidades.
+
+No gráfico da Figura 6, podemos observar os N-Grams mais frequentes:
 
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 2: N-Grams dos reviews neutros e negativos
+  Imagem 6: N-Grams dos reviews neutros e negativos
 </div>
 
 <div style="text-align: center;">
@@ -182,12 +208,11 @@ Essa métrica busca medir a correção funcional dos resultados, para isso preci
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
-Ao analisar os N-Grams, encontramos duas que podem se enquadrar aqui, são elas "prova vida" e "reconhecimento facial", pois ter esses termos como amplamente citados pode indicar que existe algo de errado na execução do fluxo dessas funcionalidades. Precisamos então definir como enquadrar os resultados do cálculo desta métrica, que será feita pegando o valor estimado dos dois termos e dividindo pela quantidade de avaliações negativas que o aplicativo recebeu durante o período que as informações foram coletadas.
-
-
+No gráfico da figura 7, podemos observar o total de avaliações negativas (1 e 2 estrelas):
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 3: Nota das avaliações na App Store do Android
+  Imagem 7: Nota das avaliações na App Store do Android
 </div>
+
 
 <div style="text-align: center;">
   <img src="../assets/images/grafico_avaliacoes.png" alt="grafico_avaliacoes" style="max-width: 80%; height: auto;">
@@ -197,24 +222,53 @@ Ao analisar os N-Grams, encontramos duas que podem se enquadrar aqui, são elas 
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
-Critério de Julgamento:
-Excelente - menor ou igual a 5%
-Bom - entre 6% e 15%
-Regular - entre 16% e 25%
-Insuficiente - maior que 25%
+Ao analisar os N-Grams, identificamos dois termos que podem indicar **incorreções funcionais**:
 
-Total de avaliações negativas(1 e 2) - 399 avaliações
-Total estimado de N-Grams para "prova vida" e "reconhecimento facial" - aproximadamente 120
+- **"prova vida"**  
+- **"reconhecimento facial"**
 
-Fazendo o cálculo(120/399), encontramos o valor de 0.30, correspondente a 30%, sendo essa métrica então classificada como Insuficiente.
+A presença recorrente desses termos sugere que pode haver falhas no fluxo dessas funcionalidades.  
 
-### 2.3 - Índice de Fricção na Tarefa Crítica(IFTC)
+??? "Critérios de Julgamento da Proporção de Relatos de Incorreção (PRI)"
 
-Essa métrica mede a taxa de sucesso percebida pelo usuário no feedback em relação a tarefas crítcas, fazendo a Análise em cima dos N-Grams de Fricção, utilizando do mesmo gráfico da figura 2:
+    A **Proporção de Relatos de Incorreção (PRI)** indica a frequência de relatos de problemas funcionais pelos usuários. Quanto menor a PRI, melhor é a percepção de correção funcional do aplicativo. Os critérios de julgamento são os seguintes:
+
+    - **Excelente (≤ 5%)**: Indica que muito poucos usuários relataram problemas. O aplicativo apresenta alta confiabilidade e quase não há relatos de falhas nas funcionalidades.
+
+    - **Bom (6% a 15%)**: Mostra que há alguns relatos de incorreções, mas ainda dentro de níveis aceitáveis. O aplicativo funciona bem na maior parte do tempo, com pequenas falhas pontuais.
+
+    - **Regular (16% a 25%)**: Indica que uma quantidade significativa de usuários identificou problemas funcionais. É necessário revisar e corrigir as funcionalidades críticas para melhorar a experiência.
+
+    - **Insuficiente (> 25%)**: Reflete que uma parte considerável dos usuários enfrenta falhas no aplicativo. Há problemas importantes que comprometem a confiabilidade e exigem ação corretiva imediata.
+
+Para calcular a PRI, utilizamos o valor estimado dos dois termos e dividindo pela quantidade de avaliações negativas que o aplicativo recebeu durante o período que as informações foram coletadas. Com a seguinte fórmula:
+
+PRI = (Total de ocorrências dos N-Grams indicativos) / (Total de avaliações negativas)
+PRI = 120 / 399 ≈ 0,30 (30%) 
+
+- **Total de avaliações negativas (1 e 2 estrelas):** 399  
+- **Total estimado de N-Grams para "prova vida" e "reconhecimento facial":** 120  
+
+
+
+#### Resultado da Análise : 
+
+- Fazendo o cálculo \(120 / 399\), obtemos o valor de **0,30**, correspondente a **30%**.  
+
+- Esse percentual indica que quase um terço das avaliações negativas mencionou problemas funcionais em funcionalidades críticas, como "prova vida" e "reconhecimento facial".  
+
+- De acordo com os critérios de julgamento da **PRI**, esse valor se enquadra na classificação **Insuficiente**, evidenciando que há uma quantidade significativa de relatos de falhas. Isso aponta que o aplicativo apresenta problemas relevantes que impactam diretamente a experiência dos usuários.  
+
+Em resumo, a métrica demonstra que funcionalidades essenciais não estão funcionando corretamente para uma parcela considerável dos usuários, sinalizando a necessidade de correções urgentes e melhorias no fluxo dessas funcionalidades.
+
+
+### 3.3 - Índice de Fricção na Tarefa Crítica(IFTC)
+
+O **Índice de Fricção na Tarefa Crítica (IFTC)** mede a **taxa de sucesso percebida pelo usuário** em relação à realização de tarefas críticas no aplicativo, com base nos feedbacks coletados. Para isso, analisamos os **N-Grams de fricção**, utilizando o mesmo gráfico da Figura 8.
 
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 4: Nota das avaliações na App Store do Android
+  Imagem 8: Nota das avaliações na App Store do Android
 </div>
 
 <div style="text-align: center;">
@@ -225,18 +279,39 @@ Essa métrica mede a taxa de sucesso percebida pelo usuário no feedback em rela
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
-Ao checarmos o gráfico por referências a tarefas críticas, encontramos uma série delas: "não funciona", "não abre", "não consigo acessar" e "não entra". Todos eles tem haver com a tarefa crítica de conseguir acessar o aplicativo, essencial para realizar toda e qualquer outra tarefa que dependa do SouGov.br. Para determinar como classificar o julgamento da métrica, utilizaremos a seguinte distribuição:
+Ao analisarmos o gráfico em busca de **referências a tarefas críticas**, identificamos os N-Grams:
 
-Excelente - menor ou igual a 10%
-Bom - entre 11% e 30%
-Regular - entre 31% e 50%
-Insuficiente - acima de 50%
+- "não funciona"  
+- "não abre"  
+- "não consigo acessar"  
+- "não entra"  
+
+Todos esses termos estão relacionados à **tarefa crítica de acessar o aplicativo**, essencial para a realização de qualquer outra funcionalidade dependente do SouGov.
+
+??? "Critérios de Julgamento do  Índice de Fricção na Tarefa Crítica(IFTC)"
+    O **Índice de Fricção na Tarefa Crítica (IFTC)** indica a taxa de sucesso percebida pelo usuário em relação à realização de tarefas críticas no aplicativo. Quanto menor o índice, melhor a experiência do usuário. Os critérios de julgamento são:
+
+    - **Excelente (≤ 10%)**: Indica que praticamente todos os usuários conseguem realizar a tarefa crítica sem encontrar dificuldades significativas. A experiência de uso é fluida e confiável.
+
+    - **Bom (11% a 30%)**: Mostra que uma parcela moderada de usuários relata algum nível de fricção, mas a maioria consegue concluir a tarefa com sucesso. Pequenas melhorias podem tornar a experiência ainda mais eficiente.
+
+    - **Regular (31% a 50%)**: Indica que uma quantidade considerável de usuários enfrenta dificuldades ao realizar a tarefa crítica. É necessário investigar os pontos de fricção e implementar melhorias para reduzir barreiras e aumentar a taxa de sucesso.
+
+    - **Insuficiente (> 50%)**: Reflete que mais da metade dos usuários encontra obstáculos ao tentar completar a tarefa crítica. Isso compromete a experiência geral do aplicativo, tornando urgente a correção de falhas e ajustes no fluxo da funcionalidade.
 
 Para executar o cálculo, utilizaremos a estimativa da soma dos N-Grams destacados aqui e dividir pela quantidade total estimada de N-Grams:
-Estimativa para total de N-Grams - aproximadamente 460
-Estimativa para a junção dos 4 N-Grams levados em consideração aqui - aproximadamente 115
-Cálculo da porcentagem - junção/total = 115/460 = 0.25 = 25%
-Desta forma, a métrica fica classificada como Bom.
+
+- **Estimativa para total de N-Grams** - aproximadamente 460
+- **Estimativa para a junção dos 4 N-Grams levados em consideração aqui** - aproximadamente 115
+- Cálculo da porcentagem - junção/total = 115/460 = 0.25 = 25%
+
+#### Resultado da Análise : 
+
+- Com base nesse cálculo, **25% das menções indicam fricção** na execução da tarefa crítica.  
+
+- Portanto, o **IFTC é classificado como "Bom"**, indicando que, embora exista algum nível de dificuldade relatada pelos usuários, a maioria consegue realizar a tarefa crítica de acessar o aplicativo sem grandes problemas.  
+
+Em resumo, a métrica evidencia que a **experiência de acesso ao SouGov.br é satisfatória para a maior parte dos usuários**, mas ainda há espaço para melhorias em pontos críticos.
 
 ## 3 - Análise dos dados coletados para a característica de Confiabilidade
 
