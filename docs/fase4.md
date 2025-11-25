@@ -470,6 +470,19 @@ Em termos práticos, essas falhas comprometem a **confiabilidade e a experiênci
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
+Uma análise detalhada de **3.361 avaliações** do aplicativo **SouGov.br**  
+(**Nota Média: 4.40**) confirma uma base de usuários **majoritariamente satisfeita** com o valor central do produto.
+
+### Principais Destaques
+
+- O **Processamento de Linguagem Natural (PLN)** destaca a frase **“acesso fácil”** como o principal ponto forte.  
+  - Isso mostra que os usuários percebem a **facilidade de acesso** como fator decisivo para o sucesso da aplicação.
+
+- A **alta polaridade positiva** demonstra que o aplicativo atende às expectativas principais da maioria dos usuários.  
+  - Esse resultado reforça a **estabilidade** e **usabilidade** das funcionalidades mais críticas.
+
+É fundamental que uma estratégia de comunicação e marketing continue a valorizar esses aspectos positivos, garantindo que funcionalidades futuras não comprometam a percepção de excelência já estabelecida.
+
 ## 6. Vídeo da ferramenta
 
 ## 7. Conclusão
