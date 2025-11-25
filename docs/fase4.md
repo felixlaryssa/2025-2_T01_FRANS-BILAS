@@ -7,7 +7,11 @@ A **Fase 4** detalha, de forma completa e rastreável, como foi realizada a cole
 - [**Adequação Funcional**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)  
 - [**Confiabilidade**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)  
 
-A coleta de dados foi feita utilizando uma ferramenta própria, explicada na [Fase 3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), sessão 5.2.2. Durante a análise, foram realizados os seguintes procedimentos:
+A coleta de dados foi feita utilizando uma ferramenta própria, explicada na página: [Ferramenta de Análise](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/) e contextualizada na [Fase 3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), sessão 5.2.2. O objetivo central da ferramenta é realizar uma coleta direcionada de dados do aplicativo **sougov** na loja brasileira (Play Store, Brasil), focando em dois conjuntos
+de dados: as informações gerais do aplicativo e todas as avaliações publicadas durante o
+ano de 2025.
+
+Durante a análise, foram realizados os seguintes procedimentos:
 
 - Criação de **gráficos** e **dashboards**.  
 - Identificação dos **termos mais utilizados**, tanto de forma positiva quanto negativa.  
@@ -18,15 +22,28 @@ Para esta análise, foram processados **3.361 reviews** do aplicativo **SouGov.b
 
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 1: Resumo dos resultados da ferramenta
+  Imagem 1: Resumo dos Resultados da Ferramenta de Análise
 </div>
 
 <div style="text-align: center;">
   <img src="../assets/images/resumo_coleta.png" alt="Resumo Coleta" style="max-width: 100%; height: auto;">
 </div>
+
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
+
+??? info "Interpretação Geral dos Resultados da Ferramenta de Análise"
+
+    - **A nota média de 4.40** indica uma alta percepção de qualidade na experiência geral dos usuários.
+    - **Com 68.1% de reviews positivos**(4-5 estrelas), observa-se que a maior parte do público avalia bem o aplicativo.
+    - **Os 22% de avaliações negativas**(1-2 estrelas) representam um volume considerável e merecem análise mais aprofundada, especialmente para as características de qualidade estudadas (**Adequação Funcional** e **Confiabilidade**).
+    - **A taxa de reviews neutros (9.8%)**(3 estrelas) é típica e reflete usuários que nem elogiam nem criticam fortemente, mas oferecem oportunidades de melhoria.
+
+<details>
+  <summary>Versão SouGov Mobile (Android)</summary>
+  Versão 5.573 — Versão mobile utilizada ao longo desta avaliação. O sistema operacional avaliado foi o Android.
+</details>
 
 ## 2 - Análise dos dados coletados para a característica Adequação Funcional
 
@@ -46,7 +63,7 @@ A ferramenta classificou os N-Grams de reviews Neutros(3) e Negativos(1 e 2), pa
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
 Das frases presentes na figura 2, possuímos "não funcionando" e "não tenho" como representantes para essa métrica, o critério de julgamento é em porcentagem, sendo elas:
@@ -77,7 +94,7 @@ Essa métrica busca medir a correção funcional dos resultados, para isso preci
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
 Ao analisar os N-Grams, encontramos duas que podem se enquadrar aqui, são elas "prova vida" e "reconhecimento facial", pois ter esses termos como amplamente citados pode indicar que existe algo de errado na execução do fluxo dessas funcionalidades. Precisamos então definir como enquadrar os resultados do cálculo desta métrica, que será feita pegando o valor estimado dos dois termos e dividindo pela quantidade de avaliações negativas que o aplicativo recebeu durante o período que as informações foram coletadas.
@@ -92,7 +109,7 @@ Ao analisar os N-Grams, encontramos duas que podem se enquadrar aqui, são elas 
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
 Critério de Julgamento:
@@ -120,7 +137,7 @@ Essa métrica mede a taxa de sucesso percebida pelo usuário no feedback em rela
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
 Ao checarmos o gráfico por referências a tarefas críticas, encontramos uma série delas: "não funciona", "não abre", "não consigo acessar" e "não entra". Todos eles tem haver com a tarefa crítica de conseguir acessar o aplicativo, essencial para realizar toda e qualquer outra tarefa que dependa do SouGov.br. Para determinar como classificar o julgamento da métrica, utilizaremos a seguinte distribuição:
@@ -154,7 +171,7 @@ Essa métrica mede a estabilidade do sistema e interrupções perceptíveis, uti
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
 Os valores definidos para os Critérios de Julgamento são:
@@ -182,7 +199,7 @@ Essa métrica tem como objetivo mensurar o tempo necessário para o sistema se r
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 <!-- ![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
 ![Figura 5 - Mapeamento dos reviews críticos](../assets/images/reviews_criticos.png) -->
@@ -217,7 +234,7 @@ Essa métrica mede a incidência de falhas operacionais que impactam diretamente
 </div>
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
-  Fonte: Ferramenta Própria
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
 Os valores determinados para os Critérios de Julgamento dessa métrica são:
@@ -247,5 +264,6 @@ Para finalizar, a equipe recomenda que no próximo ciclo de QA da aplicação os
 | 1.0    | 19/11/2025  | Versão inicial da fase 4                                                | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
 | 1.1    | 19/11/2025  | Adição de etapas iniciais extras a fase 4                               | [Giovana Ferreira](https://github.com/gih7915)                      |
 | 2.0    | 22/11/2025  | Versão intermediária da interpretação dos dados da fase 4(pendência m5) | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
-| 3.0    | 23/11/2025  | Versão final da interpretação dos dados da fase 4(pendente revisão)     | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
+| 3.0    | 23/11/2025  | Versão final da interpretação dos dados da fase 4     | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
 | 4.0    | 24/11/2025 | Ajusta imagens, descrição e fonte | [Laryssa Felix](https://github.com/felixlaryssa)  |
+| 5.0    | 24/11/2025 | Reorganização e adição de informações | [Laryssa Felix](https://github.com/felixlaryssa)  |
