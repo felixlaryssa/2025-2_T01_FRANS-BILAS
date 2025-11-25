@@ -36,13 +36,13 @@ O modelo **Goal Question Metric (GQM)** define que cada **meta de avaliação (G
 
 ### Estrutura Analítica (modelo base)
 
-| **Elemento**       | **Definição no GQM**                |
-|--------------------|------------------------------------|
-| **Objeto (O que será analisado)** | SouGov Mobile |
-| **Propósito (Por que será analisado)** | Avaliação, controle, melhoria |
-| **Qualidade do foco** | Característica de interesse |
-| **Ponto de vista** | Servidores Públicos, pensionistas |
-| **No contexto da** | Disciplina de Qualidade de Software 1 (FCTE - UnB) |
+| **Elemento**       | **Definição no GQM**   | **Objeto**             |
+|--------------------|------------------------|------------------------|
+| **Objeto** | O que será analisado | SouGov Mobile |
+| **Propósito** | Por que será analisado | Avaliação e Diagnóstico de Satisfação |
+| **Qualidade do foco** | Característica de interesse | Adequação Funcional e Confiabilidade (ISO 25010) |
+| **Ponto de vista** | Quem vai utilizar os dados? | O Avaliador (Utilizando a Ferramenta de Análise PLN - Processamento de Linguagem Natural) |
+| **Contexto** | Disciplina de Qualidade de Software 1 (FCTE - UnB) | Dados observacionais dos usuários em dispositivos móveis. |
 
 
 
@@ -58,14 +58,14 @@ Na metodologia GQM, o passo inicial (Fase 1) é a definição de Metas, o "G" de
 
 | Objeto (O que será analisado?) |	Propósito (Por que o objeto será analisado?) |	Qualidade do Foco (Propriedade do objeto)	| Ponto de Vista (Quem vai utilizar os dados?)	| Ambiente (Contexto da análise) |
 | ------------------------------ | --------------------------------------------- | ------------------------------------------ | --------------------------------------------- | ------------------------------ |
-| Aplicativo móvel SouGov.br | Avaliar a adequação funcional do sistema | Completude, correção e adequação à tarefa | Gestores de produto, analistas de QA e usuários finais | Operação pública em dispositivos móveis, dados observáveis via monitoramento funcional |
-| Aplicativo móvel SouGov.br e seus serviços de backend | Monitorar e prever falhas de estabilidade e disponibilidade | Maturidade, disponibilidade, recuperabilidade | Servidores Públicos, pensionistas, usuários finais | Execução real do aplicativo em dispositivos móveis com dependência de APIs públicas |
+| Aplicativo móvel SouGov.br | Avaliar a adequação funcional do sistema | Completude, correção e adequação à tarefa | Gestores de produto, analistas de QA(Quality Assurance) e usuários finais | Operação pública em dispositivos móveis, dados observáveis via monitoramento funcional |
+| Aplicativo móvel SouGov.br e seus serviços de backend | Monitorar e prever falhas de estabilidade e disponibilidade | Maturidade, disponibilidade, recuperabilidade | Servidores Públicos, pensionistas, usuários finais | Execução real do aplicativo em dispositivos móveis com dependência de APIs(Application Programming Interfaces)  públicas |
 
 #### Metas (Goals) Formalizadas 
 
   A partir do quadro GQM, podemos declarar as metas formais:
 
-GOAL 1: Medir o nível de Adequação Funcional do aplicativo SouGov.br para identificar gaps de completude, correção e adequação à tarefa nos módulos críticos (ex: Prova de Vida, Contracheque), do ponto de vista dos gestores de produto e usuários finais, no contexto de operação em dispositivos móveis, com o objetivo de priorizar a correção de defeitos e o desenvolvimento de funcionalidades ausentes.
+GOAL 1: Medir o nível de Adequação Funcional do aplicativo SouGov.br para identificar lacunas de completude, correção e adequação à tarefa nos módulos críticos (ex: Prova de Vida, Contracheque), do ponto de vista dos  usuários finais, no contexto de operação em dispositivos móveis, com o objetivo de priorizar a correção de defeitos e o desenvolvimento de funcionalidades ausentes.
 
 GOAL 2: Controlar, monitorar e prever falhas de estabilidade e disponibilidade do Aplicativo móvel SouGov.br e seus serviços de backend, com foco na maturidade, disponibilidade, recuperabilidade, no ponto de vista dos usuários, no contexto da execução real do aplicativo em dispositivos móveis com dependência de APIs públicas.
 
@@ -77,9 +77,9 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 
 | Característica | Subcaracterística | Questão (Q) | Métrica (M) | Fonte de Dados / Método de Coleta (Alinhado à Fase 3) | Critério de Julgamento (Nível) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Adequação Funcional | Completude Funcional | Q1: Os módulos críticos atendem a todos os requisitos e funções esperadas para cada perfil de usuário? | **M1: Cobertura de Requisitos Críticos por Módulo** ($\frac{N_{requisitos\_atendidos}}{N_{requisitos\_totais}}$ em %) | Documentação Oficial, Chamados de Suporte ("Funcionalidade Ausente"). **Método:** Análise de Rastreabilidade. | **Excelente:** $\ge 95\%$<br>**Bom:** $80\% – 94\%$<br>**Regular:** $60\% – 79\%$<br>**Insuficiente:** $< 60\%$ |
-| Adequação Funcional | Correção Funcional | Q2: Os resultados produzidos pelos serviços críticos, como cálculo de contracheque e férias, estão corretos e em conformidade com as regras de negócio? | **M2: Taxa de Inconformidade Funcional (TIF)** ($\frac{N_{erros\_cálculo}}{N_{cálculos\_auditados}}$ em %) | Chamados de Erro/Bug ("Cálculo Incorreto"), Comentários nas App Stores. **Método:** Análise de Feedback e Auditoria Comparativa. | **Excelente:** $\text{TIF} \le 5\%$<br>**Bom:** $6\% – 15\%$<br>**Regular:** $16\% – 25\%$<br>**Insuficiente:** $> 25\%$ |
-| Adequação Funcional | Adequação à Tarefa | Q3: As funções críticas, como Prova de Vida Digital, permitem que os usuários concluam suas tarefas de forma eficiente, sem falhas de usabilidade? | **M3: Taxa de Sucesso na Conclusão de Tarefas Críticas (TSCTC)** ($\frac{N_{tarefas\_completadas}}{N_{tentativas\_totais}}$ em %) | Comentários nas App Stores, Telemetria (taxa de abandono). **Método:** Análise de Comportamento e Feedbacks. | **Excelente:** $\ge 90\%$<br>**Bom:** $70\% – 89\%$<br>**Regular:** $50\% – 69\%$<br>**Insuficiente:** $< 50\%$ |
+| Adequação Funcional | Completude Funcional | Q1: Os módulos críticos atendem a todas as funções esperadas? | M1: Frequência de Lacunas Funcionais (FLF) **(N de N-grams de Ausência / N de reviews Negativos) em %** | Comentários nas App Stores. **Método:** Análise de N-grams (termos como "falta", "não tem", "deveria ter"). | Excelente: ≤ 5% / Bom: 6-15% / Regular: 16-25% / Insuficiente: > 25% |
+| Adequação Funcional | Correção Funcional | Q2: Os resultados produzidos pelos serviços críticos (cálculo, regras de negócio) estão corretos? | **M2:  Proporção de Relatos de Incorreção (PRI) ** (N de relatos de cálculo incorreto / N de reviews Negativos) em % | Comentários nas App Stores. **Método:** Mapeamento de Qualidade em termos de "Cálculo", "Incorreto", "Regra de Negócio". | Excelente: PRI ≤ 5% / Bom: 6-15% / Regular: 16-25% / Insuficiente: > 25% |
+| Adequação Funcional | Adequação à Tarefa | Q3: As funções críticas permitem que os usuários concluam tarefas de forma eficiente, sem falhas de usabilidade? | **M3:  Índice de Fricção na Tarefa Crítica (IFTC)** (N de N-grams de Fricção / N de reviews Neutros/Negativos) em % | Comentários nas App Stores. **Método:** Análise de N-grams de Fricção (e.g., "não consigo finalizar", "caminho confuso"). | Excelente: ≤ 10% / Bom: 11-30% / Regular: 31-50% / Insuficiente: > 50% |
 
 #### 3.2.2. Diagrama GQM - Adequação Funcional
 
@@ -89,9 +89,9 @@ Abaixo estão as Questões (Q) e as Métricas (M) detalhadas, alinhadas com as c
 
 | Característica | Subcaracterística | Questão (Q) | Métrica (M) | Fonte de Dados / Método de Coleta (Alinhado à Fase 3) | Critério de Julgamento (Nível) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| Confiabilidade | Maturidade e Disponibilidade | Q4: Qual a estabilidade e o tempo de operação do sistema (uptime) para os serviços críticos, especialmente em integração? | **M4: Tempo Médio Entre Falhas (TMEF ou MTBF)** e **Disponibilidade Percentual (%)** | Sessões de Uso Simuladas. **Método:** Observação Direta em Sessões de Teste (3 dias distintos, 30 min). | **Excelente:** $\text{Disp} \ge 99\%$<br>**Bom:** $95\% – 98\%$<br>**Regular:** $85\% – 94\%$<br>**Insuficiente:** $< 85\%$ |
-| Confiabilidade | Tolerância a Falhas e Recuperabilidade | Q5: Em caso de falha de integração (ex.: SIAPE, Gov.br), o sistema consegue se recuperar e restaurar a operação em tempo hábil? | **M5: Tempo Médio Para Reparo/Recuperação (TMPR ou MTTR)** | Comentários de Usuários (App Stores) e Notas de Atualização. **Método:** Análise de Correção (Tempo entre Relato e Versão Corrigida). | **Excelente:** $\text{TMPR} \le 1\text{h}$<br>**Bom:** $1\text{h} < \text{TMPR} \le 3\text{h}$<br>**Regular:** $3\text{h} < \text{TMPR} \le 6\text{h}$<br>**Insuficiente:** $\text{TMPR} > 6\text{h}$ |
-| Confiabilidade | Frequência de Falhas | Q6: Qual a frequência de falhas operacionais que impactam diretamente o usuário final nos módulos críticos (ex.: crash do app, erro de servidor)? | **M6: Frequência de Falhas Operacionais (FFO)** ($\frac{N_{falhas\_operacionais}}{N_{sessões\_usuário}}$ em %) | Comentários nas App Stores e Registros das Sessões de Uso Simuladas (M4). **Método:** Análise Estatística de Relatos de Falhas e Observação Direta. | **Excelente:** $\text{FFO} \le 2\%$<br>**Bom:** $3\% \le \text{FFO} \le 5\%$<br>**Regular:** $6\% \le \text{FFO} \le 10\%$<br>**Insuficiente:** $\text{FFO} > 10\%$ |
+| Confiabilidade | Maturidade e Disponibilidade | Q4: Qual a estabilidade e o tempo de operação do sistema (uptime) para os serviços críticos, especialmente em integração? | **M4: Frequência de Instabilidade Operacional (FIO)**  (N de relatos de falha/travamento / N de reviews totais) em % | Comentários nas App Stores. **Método:** Mapeamento de Qualidade em "Travamentos", "Lentidão", "Instabilidade" (PLN). | Excelente: ≤ 2% / Bom: 3-5% / Regular: 6-10% / Insuficiente: > 10% |
+| Confiabilidade | Tolerância a Falhas e Recuperabilidade | Q5:Em caso de falha de integração, o sistema consegue se recuperar e restaurar a operação em tempo hábil? | **M5: Índice de Recuperação Observável (IRO) ** (N de correções/versão / N de relatos críticos) | Comentários de Usuários (App Stores) e Notas de Atualização. **Método:** Correlação (N-grams de falha desaparecem após nova versão). | Excelente: 90-100% / Bom: 70-89% / Regular: 50-69% / Insuficiente: ≤ 50% |
+| Confiabilidade | Frequência de Falhas | Q6:Qual a frequência de falhas operacionais que impactam diretamente o usuário final (crash do app, erro de servidor)? | **M6: Densidade de Relatos de Bugs Críticos (DRBC)**  (N de relatos Bug/Erro / N de reviews totais) em %) | Comentários nas App Stores. **Método:** Mapeamento de Qualidade em "Bugs/Erros" (PLN). | Excelente: DRBC ≤ 2% / Bom: 3-5% / Regular: 6-10% / Insuficiente: DRBC > 10% |
 
 
 #### 3.2.4. Diagrama GQM - Confiabilidade
@@ -104,21 +104,21 @@ Após a coleta de dados, a análise se concentrará em correlacionar os resultad
 
 #### 3.3.1. Passos da Análise
 
- Visualização: Criação de gráficos e dashboards (e.g., Taxa de Inconformidade Funcional por Objeto, MTBF por Mês).
+ **Visualização:** Criação de gráficos e dashboards (painéis de controle) (e.g., Taxa de Inconformidade Funcional por Objeto, MTBF - Tempo Médio Entre Falhas por Mês).
 
- Comparação:
+ **Comparação:**
 
-- Baseline: Comparar os resultados das métricas com os objetivos de qualidade preestabelecidos (e.g., meta de TIF ≤ 2%, meta de Disponibilidade ≥ 99.5%).
+- Baseline: Comparar os resultados das métricas com os objetivos de qualidade preestabelecidos (Critérios de Julgamento).
 
 - Tendência: Analisar a evolução dos resultados ao longo do tempo (últimos 6 meses) para identificar tendências de melhoria ou degradação.
 
- Identificação de Causas Raiz: Para métricas que não atingirem as metas:
+**Identificação de Causas Raiz (PLN e Correlação)** Para métricas que não atingirem as metas:
 
-- Analisar os logs de falha (M4, M5, M6) para identificar os módulos e as integrações mais instáveis.
+- Utilizar os N-Grams mais frequentes em reviews negativos para validar e localizar a causa raiz da falha na aplicação.
 
-- Cruzar a baixa Taxa de Sucesso (M3) com as falhas de Correção Funcional (M2) para entender o impacto no usuário.
-
- Conclusão da Fase: Gerar um relatório consolidado com a performance do SouGov.br em relação à Adequação Funcional e Confiabilidade.
+- Cruzar a baixa IFTC (M3) com a alta DRBC (M6) para entender o impacto no usuário.
+  
+**Conclusão da Fase:** Gerar um relatório consolidado com a performance do SouGov.br em relação à Adequação Funcional e Confiabilidade.
 
 
 ## Tabela de Contribuição - Grupo Frans Bilas
@@ -150,5 +150,6 @@ Após a coleta de dados, a análise se concentrará em correlacionar os resultad
 | 3.0    | 24/10/2025 | Revisão e Alteração após PC2 | [Giovana Ferreira](https://github.com/gih7915) |
 | 4.0    | 24/10/2025 | Hipóteses Níveis de pontuação | [Laryssa Felix](https://github.com/felixlaryssa) |
 |5.0     | 19/11/2025 | Adequação as outras fases | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
+|6.0     | 24/11/2025 | Readequação as outras fases | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)   |
 
 
