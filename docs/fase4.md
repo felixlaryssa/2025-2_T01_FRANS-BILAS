@@ -45,7 +45,92 @@ Para esta análise, foram processados **3.361 reviews** do aplicativo **SouGov.b
   Versão 5.573 — Versão mobile utilizada ao longo desta avaliação. O sistema operacional avaliado foi o Android.
 </details>
 
-## 2 - Análise dos dados coletados para a característica Adequação Funcional
+## 2 - Análise Generalista da Fonte de dados
+Análise de Sentimento e Qualidade do aplicativo SouGov.br, focando nos dados de
+*reviews* e experiência do usuário extraídos dos comentários e avaliações.
+
+### 2.1 - Distribuição de Notas de Avaliação e Evolução Mensal
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 2: Notas das avaliações na App Store do Android
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/grafico_avaliacoes.png" alt="grafico_avaliacoes" style="max-width: 60%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
+
+??? "Distribuição de Notas de Avaliação"
+
+    O gráfico apresenta a quantidade de avaliações para cada nota atribuída pelos usuários ao aplicativo. A distribuição é desigual, mostrando uma forte concentração nas extremidades, especialmente na nota máxima.
+    Resumo das Quantidades por Nota
+
+    - **1 estrela:** 331 avaliações  
+    - **2 estrelas:** 68 avaliações  
+    - **3 estrelas:** 85 avaliações  
+    - **4 estrelas:** 331 avaliações  
+    - **5 estrelas:** 2.546 avaliações
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 3: Evolução Mensal da Quantidade de Comentários
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/evolucao.png" alt="grafico_avaliacoes" style="max-width: 60%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
+
+??? Evolução Mensal da Quantidade de Comentários
+
+    - **Jan/25 → 286 comentários:** início do ano com volume moderado.
+    - **Fev/25 → 202 comentários:** queda no engajamento.
+    - **Mar/25 → 329 comentários:** aumento expressivo no volume de avaliações.
+    - **Abr/25 → 744 comentários:** **pico absoluto do período**, indicando um evento significativo.
+    - **Mai/25 → 492 comentários:** queda após o pico, mas ainda acima da média.
+    - **Jun/25 → 338 comentários:** continuidade da tendência de queda.
+    - **Jul/25 → 318 comentários:** estabilização próxima ao padrão.
+    - **Ago/25 → 200 comentários:** queda mais acentuada.
+    - **Set/25 → 150 comentários:** um dos menores volumes registrados.
+    - **Out/25 → 191 comentários:** leve aumento.
+    - **Nov/25 → 118 comentários:** menor valor do ano, indicando baixo engajamento.
+
+    ### Interpretação Geral
+
+    A evolução mensal revela um comportamento bastante oscilante, com destaque para:
+
+    - **Um grande pico em abril (744 comentários)**, destoando dos demais meses.  
+    - **Tendência geral de queda no segundo semestre.**  
+    - **Últimos meses com volumes significativamente baixos**, sugerindo redução no engajamento ou diminuição de situações que motivam avaliações.
+
+
+
+### 2.2 Sentimento Global (PLN)
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 3: Análise de Sentimento Global (PLN)
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/sentimento.png" alt="entimento" style="max-width: 60%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
+
+??? "Análise de Sentimento Global (PLN)"
+
+    - **A nota média de 4.40 estrelas** (sendo 5.0 o valor máximo)
+    - **Com 68.1% de reviews positivos**(4-5 estrelas), 
+    - **22% de avaliações negativas**(1-2 estrelas) 
+    - **A taxa de reviews neutros (9.8%)**(3 estrelas) 
+## 3 - Análise dos dados coletados para a característica Adequação Funcional
 
 Essa sessão dedica-se a discutir sobre o que os dados coletados para as subcaracterísticas de Adequação Funcional no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
 
