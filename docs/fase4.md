@@ -189,7 +189,7 @@ O cálculo aproximado resulta em **6,52%**, classificando a métrica como **Bom*
     positivos e negativos, após a remoção de espaço vazio e frases irrelevantes. Isso
     destaca o valor central percebido e os principais pontos de fricção.
 
-### 3.2 - Proporção de Relatos de Incorreção (PRI)
+### 3.2 -M2 Proporção de Relatos de Incorreção (PRI)
 
 A **Proporção de Relatos de Incorreção (PRI)** é uma métrica que busca avaliar a **correção funcional** dos resultados do aplicativo. Para isso, analisamos os **N-Grams** presentes nos comentários neutros e negativos dos usuários, buscando termos que indiquem possíveis problemas na execução das funcionalidades.
 
@@ -262,13 +262,13 @@ PRI = 120 / 399 ≈ 0,30 (30%)
 Em resumo, a métrica demonstra que funcionalidades essenciais não estão funcionando corretamente para uma parcela considerável dos usuários, sinalizando a necessidade de correções urgentes e melhorias no fluxo dessas funcionalidades.
 
 
-### 3.3 - Índice de Fricção na Tarefa Crítica(IFTC)
+### 3.3 - M3 Índice de Fricção na Tarefa Crítica(IFTC)
 
 O **Índice de Fricção na Tarefa Crítica (IFTC)** mede a **taxa de sucesso percebida pelo usuário** em relação à realização de tarefas críticas no aplicativo, com base nos feedbacks coletados. Para isso, analisamos os **N-Grams de fricção**, utilizando o mesmo gráfico da Figura 8.
 
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 8: Nota das avaliações na App Store do Android
+  Imagem 8: N-Grams dos reviews neutros e negativos
 </div>
 
 <div style="text-align: center;">
@@ -313,17 +313,29 @@ Para executar o cálculo, utilizaremos a estimativa da soma dos N-Grams destacad
 
 Em resumo, a métrica evidencia que a **experiência de acesso ao SouGov.br é satisfatória para a maior parte dos usuários**, mas ainda há espaço para melhorias em pontos críticos.
 
-## 3 - Análise dos dados coletados para a característica de Confiabilidade
+## 4 -M4  Análise dos dados coletados para a característica de Confiabilidade
+Esta sessão tem como objetivo discutir os dados coletados relacionados às subcaracterísticas de [Confiabilidade](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#72-confiabilidade), no contexto da avaliação da qualidade do aplicativo.  
 
-Essa sessão dedica-se a discutir o que os dados coletados para as subcaracterísticas de Confiabilidade no que diz respeito a qualidade evidenciam em relação às métricas definidas para validação nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) e [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), mostrar onde falharam(se falharam), onde tiveram sucesso e onde o resultado foi neutro, adicionando o que a ferramenta conseguiu coletar por meio de fotos dos gráficos e dashboards produzidos, da análise de sentimentos e dos termos mais utilizados.
+O foco é analisar como os resultados obtidos pelas [métricas](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#42-confiabilidade), definidas nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) e [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), refletem o desempenho do aplicativo. Serão identificados:  
 
-### 3.1 - Frequência de Instabilidade Operacional (FIO)
+- Pontos em que o aplicativo **falhou**, apresentando resultados insatisfatórios;  
+- Pontos em que o aplicativo **teve sucesso**, atendendo às expectativas de confiabilidade;  
+- Pontos em que os resultados foram **neutros**, sem impacto significativo no desempenho percebido pelos usuários.  
 
-Essa métrica mede a estabilidade do sistema e interrupções perceptíveis, utilizando do Mapeamento de Qualidade (PLN) em relação a termos como "Travamentos", "Lentidão" e "Instabilidade", utilizando como cálculo a frequência de menções em relação ao total de reviews(menções/reviews).
+Além disso, a análise incorporará dados coletados por meio de **gráficos e dashboards gerados pela ferramenta**, **análise de sentimentos** dos comentários dos usuários e a frequência de termos mais utilizados nas avaliações, permitindo uma visão completa sobre a confiabilidade do aplicativo.
+
+### 4.1 - M5  Frequência de Instabilidade Operacional (FIO)
+
+
+A métrica **Frequência de Instabilidade Operacional (FIO)** avalia a **estabilidade do sistema** e a ocorrência de **interrupções perceptíveis** pelos usuários. Para isso, utiliza-se o **Mapeamento de Qualidade baseado em Processamento de Linguagem Natural (PLN)**, considerando termos indicativos de problemas, como:
+
+- "Travamentos"  
+- "Lentidão"  
+- "Instabilidade"  
 
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 4: Nota das avaliações na App Store do Android
+  Imagem 9: N-Grams de bugs e erros nas avaliações
 </div>
 
 <div style="text-align: center;">
@@ -334,24 +346,36 @@ Essa métrica mede a estabilidade do sistema e interrupções perceptíveis, uti
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
-Os valores definidos para os Critérios de Julgamento são:
+??? "Critérios de Julgamento da Frequência de Instabilidade Operacional (FIO)"
+    O cálculo da métrica é feito pela **frequência de menções desses termos em relação ao total de reviews**, conforme a fórmula:
 
-Excelente - menor ou igual a 2%
-Bom - entre 3% e 5%
-Regular - de 6% até 10%
-Insuficiente - acima de 10%
+    - **Excelente (≤ 2%)**: Quase nenhum usuário percebe travamentos, lentidão ou instabilidade. O sistema é altamente confiável.  
+    - **Bom (3% a 5%)**: Uma pequena parcela de usuários relatou problemas, mas a experiência geral é satisfatória.  
+    - **Regular (6% a 10%)**: Uma quantidade considerável de usuários percebe dificuldades. É recomendada revisão de desempenho.  
+    - **Insuficiente (> 10%)**: Muitos usuários enfrentam instabilidade, travamentos ou lentidão, comprometendo seriamente a experiência do aplicativo. 
 
-Estimativa da frequência de aparição dos termos "Travamentos", "Lentidão" e "Instabilidade" - aproximadamente 105
-Total de reviews analisadas, contando as positivas também - 3361
-Cálculo - 105/3361 = 0,03 = 3%
-Desta forma, essa métrica é classificada como Bom.
+FIO = (Número de menções aos termos críticos) / (Total de reviews)
 
-### 3.2 - Índice de Recuperação Observável (IRO)
+- **Estimativa de menções aos termos críticos:** "Travamentos", "Lentidão" e "Instabilidade" - aproximadamente 105 
+- **Total de reviews analisadas:** contando as positivas também - 3361 
 
-Essa métrica tem como objetivo mensurar o tempo necessário para o sistema se recuperar de uma falha crítica, de forma que precisamos comparar os relatos de falha crítica com as notas oficiais de atualização, ao checar a página oficial do souGov.br na App Store, a última atualização só cita ter melhorado o controle de uso da câmera, mas não cita ter arrumado outros problemas que apareceram nos N-Grams ou nos relatos de falha crítica, portanto, para essa métrica utilizaremos a estimativa de N-Grams negativos referentes aos termos e aos reviews críticos e dividir pelo total de avaliações positivas recebidas pela ferramenta
+FIO = 105 / 3361 ≈ 0,03 (3%)
+ 
+#### Resultado da Análise : 
+
+- Com base nesse cálculo, a métrica é classificada como **Bom**. Isso indica que apenas uma pequena parcela dos usuários relatou problemas relacionados a travamentos, lentidão ou instabilidade. 
+
+Em termos práticos, a maior parte dos usuários consegue utilizar o aplicativo sem interrupções perceptíveis, garantindo que as funcionalidades críticas estejam disponíveis na maior parte do tempo. Embora a experiência geral seja satisfatória, o fato de algumas menções negativas terem sido registradas sugere que **ainda existem pontos de melhoria** em termos de estabilidade e desempenho, que podem ser priorizados para reduzir a fricção e aumentar a confiabilidade percebida pelos usuários.
+
+
+### 4.2 - M5 Índice de Recuperação Observável (IRO)
+
+O **Índice de Recuperação Observável (IRO)** tem como objetivo medir o **tempo necessário para o sistema se recuperar de uma falha crítica**. Para isso, comparamos os relatos de falhas críticas identificadas nos N-Grams e reviews negativos com as informações de atualização do aplicativo na App Store do SouGov.br.
+
+Ao verificar a página oficial do aplicativo, a última atualização menciona apenas melhorias no **controle de uso da câmera**, sem abordar outros problemas relatados pelos usuários nos N-Grams ou nos reviews críticos. portanto, para essa métrica utilizaremos a estimativa de N-Grams negativos referentes aos termos e aos reviews críticos e dividir pelo total de avaliações positivas recebidas pela ferramenta
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 5: Nota das avaliações na App Store do Android
+  Imagem 10: Nota das avaliações na App Store do Android
 </div>
 
 <div style="text-align: center;">
@@ -361,32 +385,47 @@ Essa métrica tem como objetivo mensurar o tempo necessário para o sistema se r
 <div style="text-align: center; margin: 0; font-size: 14px;">
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
-<!-- ![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
-![Figura 5 - Mapeamento dos reviews críticos](../assets/images/reviews_criticos.png) -->
 
-Os Critérios de Julgamento são:
-Excelente - maior ou igual a 80%
-Bom - entre 60% e 79%
-Regular - entre 40% e 59%
-Insuficiente - menor que 40%
+
+??? "Critérios de Julgamento do Índice de Recuperação Observável (IRO)"
+    - **Excelente (≥ 80%)**: O sistema se recupera rapidamente de falhas críticas, e a maioria das funcionalidades está disponível para os usuários com alta confiabilidade.  
+    - **Bom (60% a 79%)**: O sistema apresenta boa recuperação, mas pequenas falhas podem afetar a experiência de alguns usuários.  
+    - **Regular (40% a 59%)**: A recuperação é parcial, e falhas críticas podem impactar significativamente a experiência do usuário.  
+    - **Insuficiente (< 40%)**: O sistema demora a se recuperar de falhas críticas, comprometendo a confiabilidade e a experiência geral do aplicativo.  
+
+Para calcular o IRO, utilizamos a seguinte abordagem: 
 
 O cálculo será feito a partir da estimativa de soma dos N-Grams para termos e reviews críticos e dividir esse valor pela soma das quantidades de avaliações 4 e 5 na App Store do Android, o resultado que der reduzimos de 1(correspondente a 100%), e esse resultado será o valor obtido para classificar a métrica:
-Estimativa da soma dos N-Grams de termos e de reviews críticos - aproximadamente 474
-Soma avaliações 4 e 5: 2877
-Cálculo final - 1 - (474/2877) = 1 - 0,16 = 0,84 = 84%
 
-Desta forma, definimos que pelos Critérios de Julgamento, essa métrica se classifica como Excelente.
+IRO = 1 - (Estimativa de N-Grams de termos e reviews críticos) / (Total de avaliações positivas, notas 4 e 5)
 
-### 3.3 - Densidade de Relatos de Bugs Críticos
+- **Estimativa da soma dos N-Grams de termos e de reviews críticos**: aproximadamente 474
+- **Soma avaliações positivas (4 e 5):** 2877
 
-Essa métrica mede a incidência de falhas operacionais que impactam diretamente o usuário final(como crash e erro de servidor), seu cálculo é feito a partir do Mapeamento de Qualidade (PLN) em "Bugs/Erros" e a contagem de menções críticas no total de reviews.
+IRO = 1 - (474 / 2877) = 1 - 0,16 = 0,84 = 84%
 
-<!-- <img src="../assets/images/mapa_termos.png" alt="Mapa Termos" style="max-width: 80%; height: auto;">
+#### Resultado da Análise : 
 
-<img src="../assets/images/reviews_criticos.png" alt="Reviews_criticos" style="max-width: 80%; height: auto;"> -->
+Com base no cálculo, o **IRO obtido foi de 84%**, classificando esta métrica como **Excelente**. Isso indica que, embora existam relatos de falhas críticas, o sistema consegue se recuperar rapidamente, mantendo a disponibilidade das funcionalidades essenciais e garantindo uma experiência confiável para a maioria dos usuários.
+
+### 4.3 - M6 Densidade de Relatos de Bugs Críticos
+
+A métrica **Densidade de Relatos de Bugs Críticos** avalia a **incidência de falhas operacionais que impactam diretamente o usuário final**, como **crashes** e **erros de servidor**. Para isso, utilizamos o **Mapeamento de Qualidade (PLN)**, focando em termos relacionados a **"Bugs/Erros"**, e contabilizamos as menções críticas em relação ao total de reviews.
 
 <div style="text-align: center; margin: 0; font-size: 16px;">
-  Imagem 5: Nota das avaliações na App Store do Android
+  Imagem 11: N-Grams de bugs e erros nas avaliações
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/mapa_termos.png" alt="Mapa Termos" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 12: Nota das avaliações na App Store do Android
 </div>
 
 <div style="text-align: center;">
@@ -397,21 +436,70 @@ Essa métrica mede a incidência de falhas operacionais que impactam diretamente
   Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
 </div>
 
-Os valores determinados para os Critérios de Julgamento dessa métrica são:
-Excelente - menor ou igual a 2%
-Bom - entre 3% e 5%
-Regular - entre 6% e 10%
-Insuficiente - acima de 10%
+??? "Critérios de Julgamento da Densidade de Relatos de Bugs Críticos"
+    - **Excelente (≤ 2%)**: Quase nenhum relato de falha crítica. O sistema é altamente confiável.  
+    - **Bom (3% a 5%)**: Pequena parcela de usuários percebeu falhas críticas, mas a experiência geral permanece satisfatória.  
+    - **Regular (6% a 10%)**: Um número considerável de usuários relatou problemas críticos, exigindo atenção para melhorias.  
+    - **Insuficiente (> 10%)**: Muitos usuários enfrentam falhas críticas, comprometendo significativamente a confiabilidade e a experiência do aplicativo.  
 
-Estimativa para Bugs/Erros - aproximadamente 72
-Estimativa reviews críticos - aproximadamente 300
+Densidade de Bugs Críticos = (Número de menções a Bugs/Erros) / (Total de reviews críticos)
+
+- "Estimativa para Bugs/Erros": aproximadamente 72
+- "Estimativa reviews críticos": aproximadamente 300
 Cálculo - 72/300 = 0,24 = 24%
-Portanto, a classificação desta métrica é Insuficiente.
 
-## Conclusão
+Densidade de Bugs Críticos = 72 / 300 ≈ 0,24 (24%)
 
-Após a análise dos dados recolhidos pela ferramenta, foi possível ver que 1 das 6 métricas alcançou o nível Excelente e outras 3 das 6 métricas estabelecidas passaram classificadas como Bom pelos Critérios de Julgamento, portanto existem melhorias a serem feitas, e pelo levantamenton dos N-Grams, termos críticos e nota das reviews, é perceptível que o maior problema do souGov reside em funcionalidades que necessitem do uso da câmera dos celulares, o que é algo bem subjetivo e difícil de se analisar como resolver, pois é necessário levar em conta que uma boa parte dos usuários não vão ter uma qualidade de imagem alta com as câmeras dos seus aparelhos, outros podem não ter a coordenação motora para fazer o reconhecimento facial, dentre muitos outros problemas que precisam ser resolvidos.
-Para finalizar, a equipe recomenda que no próximo ciclo de QA da aplicação os realizadores desse processo se atentem mais aos mapas, N-Grams, notas e reviews de forma mais aprofundada, assim garantindo que conseguirão sanar ao menos parte dos problemas que foram encontrados.
+#### Resultado da Análise : 
+
+- Com base nesse cálculo, a métrica é classificada como **Insuficiente**. Isso significa que **uma parcela significativa dos usuários relatou falhas críticas**, como crashes e erros de servidor, que afetam diretamente a utilização do aplicativo.  
+
+Em termos práticos, essas falhas comprometem a **confiabilidade e a experiência geral do usuário**, tornando difícil ou impossível completar tarefas essenciais de forma contínua. O resultado evidencia que **há problemas críticos que precisam ser corrigidos com prioridade**, a fim de aumentar a estabilidade do sistema, reduzir frustrações e melhorar a percepção de qualidade do aplicativo.
+
+## 5. Pontos Fortes e Contextos de Sucesso:
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 13: Principais Elogios
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/fortes.png" alt="Principais Elogios" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
+
+## 6. Vídeo da ferramenta
+
+## 7. Conclusão
+
+<!-- Após a análise dos dados recolhidos pela ferramenta, foi possível ver que 1 das 6 métricas alcançou o nível Excelente e outras 3 das 6 métricas estabelecidas passaram classificadas como Bom pelos Critérios de Julgamento, portanto existem melhorias a serem feitas, e pelo levantamenton dos N-Grams, termos críticos e nota das reviews, é perceptível que o maior problema do souGov reside em funcionalidades que necessitem do uso da câmera dos celulares, o que é algo bem subjetivo e difícil de se analisar como resolver, pois é necessário levar em conta que uma boa parte dos usuários não vão ter uma qualidade de imagem alta com as câmeras dos seus aparelhos, outros podem não ter a coordenação motora para fazer o reconhecimento facial, dentre muitos outros problemas que precisam ser resolvidos.
+Para finalizar, a equipe recomenda que no próximo ciclo de QA da aplicação os realizadores desse processo se atentem mais aos mapas, N-Grams, notas e reviews de forma mais aprofundada, assim garantindo que conseguirão sanar ao menos parte dos problemas que foram encontrados. -->
+
+
+Após a análise dos dados coletados pela ferramenta, observou-se que **apenas 1 das 6 métricas** alcançou o nível **“Excelente”**, enquanto **3 das 6 métricas** foram classificadas como **“Bom”**, segundo os Critérios de Julgamento. Esses resultados indicam que, embora existam aspectos positivos no desempenho do aplicativo, ainda há **espaço significativo para melhorias**, especialmente nas métricas que não atingiram níveis superiores.
+
+A partir do levantamento de **N-grams**, **termos críticos** e **avaliações dos usuários**, tornou-se evidente que os principais problemas do **SouGov** estão concentrados em funcionalidades que dependem do uso da **câmera dos dispositivos móveis**. Essa categoria de falhas apresenta complexidade adicional para solução, pois envolve fatores externos ao software, tais como:
+
+* Variedade na **qualidade das câmeras** entre diferentes modelos de smartphones;
+* Limitações de **coordenação motora** dos usuários durante o reconhecimento facial;
+* Condições **ambientais e de iluminação**;
+* Dificuldades de **enquadramento e estabilidade** ao capturar imagens.
+
+Esses fatores tornam o problema **multidimensional e, em certa medida, subjetivo**, demandando abordagens que combinem melhorias técnicas no aplicativo e investigações de usabilidade com usuários reais.
+
+### 7.1 Recomendações para o próximo ciclo de QA
+
+1. **Analisar mapas de calor, N-grams, notas e reviews com maior profundidade** — direcionar investigações para padrões recorrentes que indiquem falhas específicas nos fluxos que usam câmera.
+2. **Priorização de correções nas funcionalidades de câmera e reconhecimento facial**, considerando tanto ajustes técnicos (por exemplo, tolerância a variações de imagem) quanto orientações de uso para os usuários.
+3. **Testes de usabilidade e acessibilidade** com amostras representativas de dispositivos e perfis de usuários (incluindo variações de iluminação e níveis de habilidade motora).
+4. **Implementar mecanismos de feedback mais claros no app** (guias de enquadramento, mensagens de erro informativas, exemplos visuais) para reduzir fricção e aumentar a taxa de sucesso nas tarefas que usam a câmera.
+5. **Monitoramento contínuo** das avaliações após cada correção, para verificar se as intervenções reduzem a incidência dos termos críticos identificados.
+
+### 7.2 Consideração final
+
+Embora a avaliação revele pontos positivos, a predominância de problemas relacionados ao uso da câmera exige uma combinação de soluções técnicas e de experiência do usuário. Ao focar nas recomendações acima, a equipe de QA e desenvolvimento poderá mitigar grande parte das dificuldades identificadas, elevando a confiabilidade e a satisfação do público-alvo.
 
 ## Histórico de versão
 
