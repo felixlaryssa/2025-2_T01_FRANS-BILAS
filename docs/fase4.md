@@ -7,7 +7,7 @@ A **Fase 4** detalha, de forma completa e rastreável, como foi realizada a cole
 - [**Adequação Funcional**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)  
 - [**Confiabilidade**](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#7-modelo-de-qualidade)  
 
-A coleta de dados foi feita utilizando uma ferramenta própria, explicada na [Fase 3](/docs/fase3.md), sessão 5.2.2. Durante a análise, foram realizados os seguintes procedimentos:
+A coleta de dados foi feita utilizando uma ferramenta própria, explicada na [Fase 3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), sessão 5.2.2. Durante a análise, foram realizados os seguintes procedimentos:
 
 - Criação de **gráficos** e **dashboards**.  
 - Identificação dos **termos mais utilizados**, tanto de forma positiva quanto negativa.  
@@ -184,8 +184,8 @@ Essa métrica tem como objetivo mensurar o tempo necessário para o sistema se r
 <div style="text-align: center; margin: 0; font-size: 14px;">
   Fonte: Ferramenta Própria
 </div>
-![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
-![Figura 5 - Mapeamento dos reviews críticos](../assets/images/reviews_criticos.png)
+<!-- ![Figura 4 - Mapeamento dos termos](../assets/images/mapa_termos.png)
+![Figura 5 - Mapeamento dos reviews críticos](../assets/images/reviews_criticos.png) -->
 
 Os Critérios de Julgamento são:
 Excelente - maior ou igual a 80%
@@ -207,6 +207,18 @@ Essa métrica mede a incidência de falhas operacionais que impactam diretamente
 <!-- <img src="../assets/images/mapa_termos.png" alt="Mapa Termos" style="max-width: 80%; height: auto;">
 
 <img src="../assets/images/reviews_criticos.png" alt="Reviews_criticos" style="max-width: 80%; height: auto;"> -->
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Imagem 5: Nota das avaliações na App Store do Android
+</div>
+
+<div style="text-align: center;">
+  <img src="../assets/images/reviews_criticos.png" alt="reviews_criticos" style="max-width: 80%; height: auto;">
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: Ferramenta Própria
+</div>
 
 Os valores determinados para os Critérios de Julgamento dessa métrica são:
 Excelente - menor ou igual a 2%
