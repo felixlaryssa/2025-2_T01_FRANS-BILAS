@@ -143,7 +143,7 @@ Esta seção tem como objetivo analisar os dados coletados referentes às subcar
 
 Além disso, serão apresentados os dados coletados pela ferramenta, incluindo: fotos dos gráficos e dashboards gerados e os termos mais utilizados pelos usuários.
 
-### 3.1 - M1 Frequência de Lacunas Funcionais (FLF)
+### 3.1 - [M1 Frequência de Lacunas Funcionais (FLF)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#41-adequacao-funcional)
 
 A ferramenta classificou os N-Grams das avaliações **neutras** (nota 3) e **negativas** (notas 1 e 2).  
 Para analisar essas métricas, é necessário identificar termos que expressem carência ou insatisfação, como *“falta”*, *“não tem”* e *“precisava”*. A M1 – Frequência de Lacunas Funcionais (FLF) é uma métrica de adequação funcional que avalia a frequência com que funcionalidades esperadas estão ausentes ou incompletas em um sistema.
@@ -189,7 +189,7 @@ O cálculo aproximado resulta em **6,52%**, classificando a métrica como **Bom*
     positivos e negativos, após a remoção de espaço vazio e frases irrelevantes. Isso
     destaca o valor central percebido e os principais pontos de fricção.
 
-### 3.2 -M2 Proporção de Relatos de Incorreção (PRI)
+### 3.2 - [M2 Proporção de Relatos de Incorreção (PRI)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#41-adequacao-funcional)
 
 A **Proporção de Relatos de Incorreção (PRI)** é uma métrica que busca avaliar a **correção funcional** dos resultados do aplicativo. Para isso, analisamos os **N-Grams** presentes nos comentários neutros e negativos dos usuários, buscando termos que indiquem possíveis problemas na execução das funcionalidades.
 
@@ -262,7 +262,7 @@ PRI = 120 / 399 ≈ 0,30 (30%)
 Em resumo, a métrica demonstra que funcionalidades essenciais não estão funcionando corretamente para uma parcela considerável dos usuários, sinalizando a necessidade de correções urgentes e melhorias no fluxo dessas funcionalidades.
 
 
-### 3.3 - M3 Índice de Fricção na Tarefa Crítica(IFTC)
+### 3.3 - [M3 Índice de Fricção na Tarefa Crítica(IFTC)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#41-adequacao-funcional)
 
 O **Índice de Fricção na Tarefa Crítica (IFTC)** mede a **taxa de sucesso percebida pelo usuário** em relação à realização de tarefas críticas no aplicativo, com base nos feedbacks coletados. Para isso, analisamos os **N-Grams de fricção**, utilizando o mesmo gráfico da Figura 8.
 
@@ -313,7 +313,7 @@ Para executar o cálculo, utilizaremos a estimativa da soma dos N-Grams destacad
 
 Em resumo, a métrica evidencia que a **experiência de acesso ao SouGov.br é satisfatória para a maior parte dos usuários**, mas ainda há espaço para melhorias em pontos críticos.
 
-## 4 -M4  Análise dos dados coletados para a característica de Confiabilidade
+## 4 -  Análise dos dados coletados para a característica de Confiabilidade
 Esta sessão tem como objetivo discutir os dados coletados relacionados às subcaracterísticas de [Confiabilidade](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase1/#72-confiabilidade), no contexto da avaliação da qualidade do aplicativo.  
 
 O foco é analisar como os resultados obtidos pelas [métricas](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#42-confiabilidade), definidas nas fases [2](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase2/) e [3](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/), refletem o desempenho do aplicativo. Serão identificados:  
@@ -324,7 +324,7 @@ O foco é analisar como os resultados obtidos pelas [métricas](https://felixlar
 
 Além disso, a análise incorporará dados coletados por meio de **gráficos e dashboards gerados pela ferramenta**, **análise de sentimentos** dos comentários dos usuários e a frequência de termos mais utilizados nas avaliações, permitindo uma visão completa sobre a confiabilidade do aplicativo.
 
-### 4.1 - M5  Frequência de Instabilidade Operacional (FIO)
+### 4.1 - [M4  Frequência de Instabilidade Operacional (FIO)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#42-confiabilidade)
 
 
 A métrica **Frequência de Instabilidade Operacional (FIO)** avalia a **estabilidade do sistema** e a ocorrência de **interrupções perceptíveis** pelos usuários. Para isso, utiliza-se o **Mapeamento de Qualidade baseado em Processamento de Linguagem Natural (PLN)**, considerando termos indicativos de problemas, como:
@@ -368,7 +368,7 @@ FIO = 105 / 3361 ≈ 0,03 (3%)
 Em termos práticos, a maior parte dos usuários consegue utilizar o aplicativo sem interrupções perceptíveis, garantindo que as funcionalidades críticas estejam disponíveis na maior parte do tempo. Embora a experiência geral seja satisfatória, o fato de algumas menções negativas terem sido registradas sugere que **ainda existem pontos de melhoria** em termos de estabilidade e desempenho, que podem ser priorizados para reduzir a fricção e aumentar a confiabilidade percebida pelos usuários.
 
 
-### 4.2 - M5 Índice de Recuperação Observável (IRO)
+### 4.2 - [M5 Índice de Recuperação Observável (IRO)](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#42-confiabilidade)
 
 O **Índice de Recuperação Observável (IRO)** tem como objetivo medir o **tempo necessário para o sistema se recuperar de uma falha crítica**. Para isso, comparamos os relatos de falhas críticas identificadas nos N-Grams e reviews negativos com as informações de atualização do aplicativo na App Store do SouGov.br.
 
@@ -408,7 +408,7 @@ IRO = 1 - (474 / 2877) = 1 - 0,16 = 0,84 = 84%
 
 Com base no cálculo, o **IRO obtido foi de 84%**, classificando esta métrica como **Excelente**. Isso indica que, embora existam relatos de falhas críticas, o sistema consegue se recuperar rapidamente, mantendo a disponibilidade das funcionalidades essenciais e garantindo uma experiência confiável para a maioria dos usuários.
 
-### 4.3 - M6 Densidade de Relatos de Bugs Críticos
+### 4.3 - [M6 Densidade de Relatos de Bugs Críticos](https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/fase3/#42-confiabilidade)
 
 A métrica **Densidade de Relatos de Bugs Críticos** avalia a **incidência de falhas operacionais que impactam diretamente o usuário final**, como **crashes** e **erros de servidor**. Para isso, utilizamos o **Mapeamento de Qualidade (PLN)**, focando em termos relacionados a **"Bugs/Erros"**, e contabilizamos as menções críticas em relação ao total de reviews.
 
