@@ -120,14 +120,14 @@ Com base nos problemas citados na sessão 5.2.1, o grupo optou por produzir uma 
 
 | **Etapa / Métrica**                               | **Atividades Resumidas**                                                             | **Responsável(is)**               | **Período**       |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------- | ----------------- |
-| **Coleta das Reviews**                            | Extração de reviews das lojas, limpeza dos dados, unificação das bases               | **Laryssa, Giovana**              | Dia 1 Semana 1    |
+| **Coleta das Reviews**                            | Extração de reviews das lojas, limpeza dos dados, unificação das bases               | **Matheus, Laryssa, Giovana**              | Dia 1 Semana 1    |
 | **Processamento NLP – Polaridade**                | Aplicação de análise de sentimento, cálculos de polaridade, identificação de padrões | **Matheus, Laryssa**              | Dia 2 Semana 1    |
-| **Geração de N-grams (Unigram, Bigram, Trigram)** | Tokenização, remoção de stopwords, geração e validação dos N-grams                   | **Ana Beatriz, Carlos**           | Dia 3 Semana 1    |
-| **Identificação de Termos Críticos**              | Seleção de termos negativos, análise de frequência e relevância                      | **Carlos, Giovana**               | Dia 3-4 Semana 1  |
-| **Mapa de Calor de Sentimentos**                  | Cruzamento de emoções com funcionalidades, agrupamento por tópicos                   | **Laryssa, Ana Beatriz**          | Dia 4 Semana 1    |
+| **Geração de N-grams (Unigram, Bigram, Trigram)** | Tokenização, remoção de stopwords, geração e validação dos N-grams                   | **Matheus,Ana Beatriz, Carlos**           | Dia 3 Semana 1    |
+| **Identificação de Termos Críticos**              | Seleção de termos negativos, análise de frequência e relevância                      | **Matheus,Carlos, Giovana**               | Dia 3-4 Semana 1  |
+| **Mapa de Calor de Sentimentos**                  | Cruzamento de emoções com funcionalidades, agrupamento por tópicos                   | **Matheus, Laryssa, Ana Beatriz**          | Dia 4 Semana 1    |
 | **Análise de Correlação com Falhas**              | Relação entre reviews negativas e eventos de falha (camera, login, biometria etc.)   | **Matheus, Carlos**               | Dia 5 Semana 1    |
-| **Síntese das Métricas Derivadas**                | Interpretação dos resultados (polaridade, termos críticos, N-grams)                  | **Laryssa, Giovana, Ana Beatriz** | Dia 1 Semana 2    |
-| **Redação da Conclusão Analítica**                | Construção das conclusões gerais a partir das evidências                             | **Laryssa**                       | Dia 2 Semana 2    |
+| **Síntese das Métricas Derivadas**                | Interpretação dos resultados (polaridade, termos críticos, N-grams)                  | **Matheus, Laryssa, Giovana, Ana Beatriz** | Dia 1 Semana 2    |
+| **Redação da Conclusão Analítica**                | Construção das conclusões gerais a partir das evidências                             | **Todos**                       | Dia 2 Semana 2    |
 | **Consolidação do Relatório Final**               | Revisão, formatação e organização de todo o conteúdo analisado                       | **Todos**                         | Final da Semana 2 |
 
 
