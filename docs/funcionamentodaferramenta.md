@@ -78,6 +78,20 @@ Ao final da execução, dois arquivos de planilha são gerados dentro do diretó
 1. **informacoes_app_xlsx:** Contém as informações gerais do aplicativo(Título, Desenvolvedor, Notas, etc.) em uma planilha de duas colunas(Campo e Valor);
 2. **reviews_2025_xlsx:** Contém uma lista detalhada de todas as avaliações de usuários coletadas e filtradas, incluindo data, texto do comentário, nota dada pelo usuário e outras métricas, limitadas estritamente ao tempo estipulado pelo usuário, no escopo do projeto, 2025.
 
+## 5 - Vídeo da Ferramenta
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Vídeo: Demonstração do uso da Ferramenta de Análise
+</div>
+
+<div style="text-align: center; margin: 0; ">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fLvwrG0Gztw?si=9vomPtohiYAAHjEN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
+
 ## Histórico de versão
 
 <div style="text-align: center; margin: 0; font-size: 14px;">

@@ -483,7 +483,19 @@ Uma análise detalhada de **3.361 avaliações** do aplicativo **SouGov.br**
 
 É fundamental que uma estratégia de comunicação e marketing continue a valorizar esses aspectos positivos, garantindo que funcionalidades futuras não comprometam a percepção de excelência já estabelecida.
 
-## 6. Vídeo da ferramenta
+## 6. Vídeo da Ferramenta
+
+<div style="text-align: center; margin: 0; font-size: 16px;">
+  Vídeo: Demonstração do uso da Ferramenta de Análise
+</div>
+
+<div style="text-align: center; margin: 0; ">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fLvwrG0Gztw?si=9vomPtohiYAAHjEN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Fonte: <a href="https://felixlaryssa.github.io/2025-2_T01_FRANS-BILAS/funcionamentodaferramenta/" target="_blank">Ferramenta Própria</a>
+</div>
 
 ## 7. Conclusão
 
