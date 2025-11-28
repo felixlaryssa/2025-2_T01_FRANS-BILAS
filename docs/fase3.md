@@ -153,17 +153,19 @@ Esses registros servirão como evidência para validação dos resultados.
 
 > Governo Federal. _Plataforma Gov.br – Serviços digitais para o cidadão_. Disponível em: <https://www.gov.br>. Acesso em: 27 setembro 2025.
 
+## Tabela de Contribuição - Grupo Frans Bilas
+
 <div style="text-align: center; margin: 0; font-size: 14px;">
   Tabela 4: Contribuições dos Membros do Grupo
 </div>
 
 | Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
 | --------- | ------------- | ------------------- | ----------------- |
-| 200060783 | Ana Beatriz W. Massuh | Pesquisa e documentação | -% |
-| 190085584 | Carlos Eduardo Mendes |  Pesquisa | -% |
-| 231034707 | Giovana Ferreira Santos | Pesquisa e documentação | -% |
-| 231026840 | Laryssa Felix |  Pesquisa e documentação  | -% |
-| 202070064 | Matheus do Vale | Pesquisa | -% |
+| 200060783 | Ana Beatriz W. Massuh | ---- | -% |
+| 190085584 | Carlos Eduardo Mendes |  --- | -% |
+| 231034707 | Giovana Ferreira Santos | ---- | -% |
+| 231026840 | Laryssa Felix |  ---  | -% |
+| 202070064 | Matheus do Vale | ---- | -% |
 
 ---------------------
 
