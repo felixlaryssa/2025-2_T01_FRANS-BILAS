@@ -161,11 +161,11 @@ Esses registros servirão como evidência para validação dos resultados.
 
 | Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
 | --------- | ------------- | ------------------- | ----------------- |
-| 200060783 | Ana Beatriz W. Massuh | ---- | -% |
-| 190085584 | Carlos Eduardo Mendes |  --- | -% |
-| 231034707 | Giovana Ferreira Santos | ---- | -% |
-| 231026840 | Laryssa Felix |  ---  | -% |
-| 202070064 | Matheus do Vale | ---- | -% |
+| 200060783 | Ana Beatriz W. Massuh | ---- | 20% |
+| 190085584 | Carlos Eduardo Mendes |  --- | 20% |
+| 231034707 | Giovana Ferreira Santos | ---- | 20% |
+| 231026840 | Laryssa Felix |  ---  | 20% |
+| 202070064 | Matheus do Vale | ---- | 20% |
 
 ---------------------
 
@@ -182,4 +182,4 @@ Esses registros servirão como evidência para validação dos resultados.
 | 2.1    | 16/11/2025  | Ajuste para deploy pages                                   | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)              |
 | 3.0    | 18/11/2025  | Ajustes no Alinhamento com a fase 2                        | [Laryssa Felix](https://github.com/felixlaryssa)                       |
 | 4.0    | 19/11/2025  | Adição da explicação sobre a ferramenta escolhida(inicial) | [Carlos Eduardo](<(https://github.com/CarlosEduardoMendesdeMesquita)>) |
-| 5.0    | 23/11/2025  | Correções                       | [Laryssa Felix](https://github.com/felixlaryssa)                       |
+| 5.0    | 23/11/2025  | Correções                                                  | [Laryssa Felix](https://github.com/felixlaryssa)                       |
