@@ -539,8 +539,8 @@ Embora a avaliação revele pontos positivos, a predominância de problemas rela
 | 200060783 | Ana Beatriz W. Massuh | Pesquisa | 18% |
 | 190085584 | Carlos Eduardo Mendes |  Pesquisa | 18% |
 | 231034707 | Giovana Ferreira Santos | Pesquisa | 18% |
-| 231026840 | Laryssa Felix |  Pesquisa  | 26% |
-| 202070064 | Matheus do Vale | Análise e Coleta | 20% |
+| 231026840 | Laryssa Felix |  Pesquisa  | 20% |
+| 202070064 | Matheus do Vale | Análise e Coleta | 26% |
 
 ---------------------
 ## Histórico de versão
