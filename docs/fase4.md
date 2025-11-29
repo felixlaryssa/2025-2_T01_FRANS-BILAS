@@ -526,6 +526,23 @@ Esses fatores tornam o problema **multidimensional e, em certa medida, subjetivo
 
 Embora a avaliação revele pontos positivos, a predominância de problemas relacionados ao uso da câmera exige uma combinação de soluções técnicas e de experiência do usuário. Ao focar nas recomendações acima, a equipe de QA e desenvolvimento poderá mitigar grande parte das dificuldades identificadas, elevando a confiabilidade e a satisfação do público-alvo.
 
+---------------------
+
+## Tabela de Contribuição - Grupo Frans Bilas
+
+<div style="text-align: center; margin: 0; font-size: 14px;">
+  Tabela 4: Contribuições dos Membros do Grupo
+</div>
+
+| Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
+| --------- | ------------- | ------------------- | ----------------- |
+| 200060783 | Ana Beatriz W. Massuh | ---- | 20% |
+| 190085584 | Carlos Eduardo Mendes |  --- | 20% |
+| 231034707 | Giovana Ferreira Santos | ---- | 20% |
+| 231026840 | Laryssa Felix |  ---  | 20% |
+| 202070064 | Matheus do Vale | ---- | 20% |
+
+---------------------
 ## Histórico de versão
 
 <div style="text-align: center; margin: 0; font-size: 14px;">
