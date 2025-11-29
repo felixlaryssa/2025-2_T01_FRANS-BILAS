@@ -161,11 +161,11 @@ Esses registros servirão como evidência para validação dos resultados.
 
 | Matrícula | Nome do aluno | Atividade Realizada | % de Contribuição |
 | --------- | ------------- | ------------------- | ----------------- |
-| 200060783 | Ana Beatriz W. Massuh | ---- | 20% |
-| 190085584 | Carlos Eduardo Mendes |  --- | 20% |
-| 231034707 | Giovana Ferreira Santos | ---- | 20% |
-| 231026840 | Laryssa Felix |  ---  | 20% |
-| 202070064 | Matheus do Vale | ---- | 20% |
+| 200060783 | Ana Beatriz W. Massuh | Análise e Pesquisa | 20% |
+| 190085584 | Carlos Eduardo Mendes |  Análise e Pesquisa | 20% |
+| 231034707 | Giovana Ferreira Santos | Análise e Pesquisa | 20% |
+| 231026840 | Laryssa Felix |  Análise e Pesquisa  | 20% |
+| 202070064 | Matheus do Vale | Pesquisa e criação da ferramenta | 20% |
 
 ---------------------
 
