@@ -181,5 +181,5 @@ Esses registros servirão como evidência para validação dos resultados.
 | 2.0    | 16/11/2025  | Adição de análise inicial das ferramentas de coleta        | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)     |
 | 2.1    | 16/11/2025  | Ajuste para deploy pages                                   | [Ana Beatriz Massuh](https://github.com/AnaBeatrizMassuh)              |
 | 3.0    | 18/11/2025  | Ajustes no Alinhamento com a fase 2                        | [Laryssa Felix](https://github.com/felixlaryssa)                       |
-| 4.0    | 19/11/2025  | Adição da explicação sobre a ferramenta escolhida(inicial) | [Carlos Eduardo](<(https://github.com/CarlosEduardoMendesdeMesquita)>) |
+| 4.0    | 19/11/2025  | Adição da explicação sobre a ferramenta escolhida(inicial) | [Carlos Eduardo](https://github.com/CarlosEduardoMendesdeMesquita)  |
 | 5.0    | 23/11/2025  | Correções                                                  | [Laryssa Felix](https://github.com/felixlaryssa)                       |
